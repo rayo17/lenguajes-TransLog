@@ -1,0 +1,34 @@
+%ser
+verbo(singular, primera, "soy", "am").
+verbo(singular, segunda, "eres", "are").
+verbo(singular, tercera, "es", "is").
+verbo(plural, primera, "somos", "are").
+verbo(plural, segunda, "son", "are").
+verbo(plural, tercera, "son", "are").
+
+%estar
+verbo(singular, primera, "estoy", "am").
+verbo(singular, segunda, "estás", "are").
+verbo(singular, tercera, "está", "is").
+verbo(plural, primera, "estamos", "are").
+verbo(plural, segunda, "están", "are").
+verbo(plural, tercera, "están", "are").
+
+%preguntar
+verbo(singular, primera, "pregunto", "ask").
+verbo(singular, segunda, "preguntas", "ask").
+verbo(singular, tercera, "pregunta", "asks").
+verbo(plural, primera, "preguntamos", "ask").
+verbo(plural, segunda, "preguntais", "ask").
+verbo(plural, tercera, "preguntan", "ask").
+
+%llamar
+verbo(singular, primera, "llamo", "call").
+verbo(singular, segunda, "llamas", "call").
+verbo(singular, tercera, "llama", "calls").
+verbo(plural, primera, "llamamos", "call").
+verbo(plural, segunda, "llaman", "call").
+verbo(plural, tercera, "llaman", "call").
+
+%venir
+
