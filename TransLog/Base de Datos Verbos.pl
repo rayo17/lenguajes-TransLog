@@ -222,3 +222,12 @@ verbo(singular, tercera, "trabaja", "works").
 verbo(plural, primera, "trabajamos", "work").
 verbo(plural, segunda, "trabajan", "work").
 verbo(plural, tercera, "trabajan", "work").
+
+%beber
+verbo(singular, primera, "bebo", "drink").
+verbo(singular, segunda, "bebes", "drink").
+verbo(singular, segunda, "bebe", "drink").
+verbo(singular, tercera, "bebe", "drinks").
+verbo(plural, primera, "bebemos", "drink").
+verbo(plural, segunda, "beben", "drink").
+verbo(plural, tercera, "beben", "drink").

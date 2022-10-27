@@ -178,7 +178,47 @@ verbo(plural, primera, "tomamos", "take").
 verbo(plural, segunda, "toman", "take").
 verbo(plural, tercera, "toman", "take").
 
+%pensar
+verbo(singular, primera, "pienso", "think").
+verbo(singular, segunda, "piensas", "think").
+verbo(singular, segunda, "piensa", "think").
+verbo(singular, tercera, "piensa", "thinks").
+verbo(plural, primera, "pensamos", "thinks").
+verbo(plural, segunda, "piensan", "think").
+verbo(plural, tercera, "piensan", "thinks").
 
+%intentar
+verbo(singular, primera, "intento", "try").
+verbo(singular, segunda, "intentas", "try").
+verbo(singular, segunda, "intenta", "try").
+verbo(singular, tercera, "intenta", "tries").
+verbo(plural, primera, "intentamos", "try").
+verbo(plural, segunda, "intentan", "try").
+verbo(plural, tercera, "intentan", "try").
 
+%usar
+verbo(singular, primera, "uso", "use").
+verbo(singular, segunda, "usas", "use").
+verbo(singular, segunda, "usa", "use").
+verbo(singular, tercera, "usa", "uses").
+verbo(plural, primera, "usamos", "use").
+verbo(plural, segunda, "usan", "use").
+verbo(plural, tercera, "usan", "use").
 
+%querer
+verbo(singular, primera, "quiero", "want").
+verbo(singular, segunda, "quieres", "want").
+verbo(singular, segunda, "quiere", "want").
+verbo(singular, tercera, "quiere", "wants").
+verbo(plural, primera, "queremos", "want").
+verbo(plural, segunda, "quieren", "want").
+verbo(plural, tercera, "quieren", "want").
 
+%trabajar
+verbo(singular, primera, "trabajo", "work").
+verbo(singular, segunda, "trabajas", "work").
+verbo(singular, segunda, "trabaja", "work").
+verbo(singular, tercera, "trabaja", "works").
+verbo(plural, primera, "trabajamos", "work").
+verbo(plural, segunda, "trabajan", "work").
+verbo(plural, tercera, "trabajan", "work").
