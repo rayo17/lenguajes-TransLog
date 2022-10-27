@@ -43,14 +43,14 @@ verbo(plural, primera, "venimos", "come").
 verbo(plural, segunda, "vienen", "come").
 verbo(plural, tercera, "vienen", "come").
 
-%hacer
-verbo(singular, primera, "hago", "do").
-verbo(singular, segunda, "haces", "do").
-verbo(singular, segunda, "hace", "do").
-verbo(singular, tercera, "hace", "does").
-verbo(plural, primera, "hacemos", "do").
-verbo(plural, segunda, "hacen", "do").
-verbo(plural, tercera, "hacen", "do").
+%hacer/* verificar como agregar do sin afectar make*/
+verbo(singular, primera, "hago", "make").
+verbo(singular, segunda, "haces", "make").
+verbo(singular, segunda, "hace", "make").
+verbo(singular, tercera, "hace", "makes").
+verbo(plural, primera, "hacemos", "make").
+verbo(plural, segunda, "hacen", "make").
+verbo(plural, tercera, "hacen", "make").
 
 %sentir
 verbo(singular, primera, "siento", "feels").
@@ -141,4 +141,44 @@ verbo(singular, tercera, "mira", "looks").
 verbo(plural, primera, "miramos", "look").
 verbo(plural, segunda, "miran", "look").
 verbo(plural, tercera, "miran", "look").
+
+%decir /* hablar con los demas acerca de tell y say*/
+verbo(singular, primera, "digo", "say").
+verbo(singular, segunda, "dices", "say").
+verbo(singular, segunda, "dice", "say").
+verbo(singular, tercera, "dice", "says").
+verbo(plural, primera, "decimos", "say").
+verbo(plural, segunda, "dicen", "say").
+verbo(plural, tercera, "dicen", "say").
+
+%ver
+verbo(singular, primera, "veo", "see").
+verbo(singular, segunda, "ves", "see").
+verbo(singular, segunda, "ve", "see").
+verbo(singular, tercera, "ve", "sees").
+verbo(plural, primera, "vemos", "see").
+verbo(plural, segunda, "ven", "see").
+verbo(plural, tercera, "ven", "see").
+
+%parecer
+verbo(singular, primera, "parezco", "look like").
+verbo(singular, segunda, "pareces", "look like").
+verbo(singular, segunda, "parece", "look like").
+verbo(singular, tercera, "parece", "looks like").
+verbo(plural, primera, "parecemos", "look like").
+verbo(plural, segunda, "parecen", "look like").
+verbo(plural, tercera, "parecen", "look like").
+
+%tomar
+verbo(singular, primera, "tomo", "take").
+verbo(singular, segunda, "tomas", "take").
+verbo(singular, segunda, "toma", "take").
+verbo(singular, tercera, "toma", "takes").
+verbo(plural, primera, "tomamos", "take").
+verbo(plural, segunda, "toman", "take").
+verbo(plural, tercera, "toman", "take").
+
+
+
+
 
