@@ -55,5 +55,103 @@ adjetivo(plural, femenino, ["argentinas"], ["argentines"]).
 %azul
 adjetivo(singular, masculino, ["azul"], ["blue"]).
 adjetivo(singular, femenino, ["azul"], ["blue"]).
-adjetivo(plural, masculino, ["azules"], ["blues"]).
-adjetivo(plural, femenino, ["azules"], ["blues"]).
+adjetivo(plural, masculino, ["azules"], ["blue"]).
+adjetivo(plural, femenino, ["azules"], ["blue"]).
+
+%bajo
+adjetivo(singular, masculino, ["bajo"], ["short"]).
+adjetivo(singular, femenino, ["baja"], ["short"]).
+adjetivo(plural, masculino, ["bajos"], ["short"]).
+adjetivo(plural, femenino, ["bajas"], ["short"]).
+
+%blaco
+adjetivo(singular, masculino, ["blanco"], ["white"]).
+adjetivo(singular, femenino, ["blanca"], ["white"]).
+adjetivo(plural, masculino, ["blancos"], ["white"]).
+adjetivo(plural, femenino, ["blancas"], ["white"]).
+
+%blando
+adjetivo(singular, masculino, ["blando"], ["soft"]).
+adjetivo(singular, femenino, ["blanda"], ["soft"]).
+adjetivo(plural, masculino, ["blandos"], ["soft"]).
+adjetivo(plural, femenino, ["blandas"], ["soft"]).
+
+%brillante
+adjetivo(singular, masculino, ["brillante"], ["shiny"]).
+adjetivo(singular, femenino, ["brillante"], ["shiny"]).
+adjetivo(plural, masculino, ["brillantes"], ["shiny"]).
+adjetivo(plural, femenino, ["brillantes"], ["shiny"]).
+
+%tonto
+adjetivo(singular, masculino, ["tonto"], ["silly"]).
+adjetivo(singular, femenino, ["tonta"], ["silly"]).
+adjetivo(plural, masculino, ["tontos"], ["silly"]).
+adjetivo(plural, femenino, ["tontas"], ["silly"]).
+
+%bueno
+adjetivo(singular, masculino, ["bueno"], ["nice"]).
+adjetivo(singular, femenino, ["buena"], ["nice"]).
+adjetivo(plural, masculino, ["buenos"], ["nice"]).
+adjetivo(plural, femenino, ["buenas"], ["nice"]).
+
+%cariñoso
+adjetivo(singular, masculino, ["cariñoso"], ["loving"]).
+adjetivo(singular, femenino, ["cariñosa"], ["loving"]).
+adjetivo(plural, masculino, ["cariñosos"], ["affectionate"]).
+adjetivo(plural, femenino, ["cariñosas"], ["affectionate"]).
+
+%complejo
+adjetivo(singular, masculino, ["complejo"], ["complex"]).
+adjetivo(singular, femenino, ["ccompleja"], ["complex"]).
+adjetivo(plural, masculino, ["complejos"], ["complex"]).
+adjetivo(plural, femenino, ["complejas"], ["comolex"]).
+
+%complicado
+adjetivo(singular, masculino, ["complicado"], ["complicated"]).
+adjetivo(singular, femenino, ["complicada"], ["complicated"]).
+adjetivo(plural, masculino, ["complicados"], ["complicated"]).
+adjetivo(plural, femenino, ["complicadas"], ["complicated"]).
+
+%conocido
+adjetivo(singular, masculino, ["conocido"], ["known"]).
+adjetivo(singular, femenino, ["conocida"], ["known"]).
+adjetivo(plural, masculino, ["conocidos"], ["known"]).
+adjetivo(plural, femenino, ["conocidas"], ["known"]).
+
+%delgado
+adjetivo(singular, masculino, ["delgado"], ["thin"]).
+adjetivo(singular, femenino, ["delgada"], ["thin"]).
+adjetivo(plural, masculino, ["delgados"], ["thin"]).
+adjetivo(plural, femenino, ["delgadas"], ["thin"]).
+
+%desafortunado
+adjetivo(singular, masculino, ["desafortunado"], ["unlucky"]).
+adjetivo(singular, femenino, ["desafortunada"], ["unlucky"]).
+adjetivo(plural, masculino, ["desafortunados"], ["unlucky"]).
+adjetivo(plural, femenino, ["desafortunadas"], ["unlucky"]).
+
+%desconocido
+adjetivo(singular, masculino, ["desconocido"], ["unknown"]).
+adjetivo(singular, femenino, ["desconocida"], ["unknown"]).
+adjetivo(plural, masculino, ["desconocidos"], ["unknown"]).
+adjetivo(plural, femenino, ["desconocidas"], ["unknown"]).
+
+%deshonesto
+adjetivo(singular, masculino, ["deshonesto"], ["dishonest"]).
+adjetivo(singular, femenino, ["deshonesta"], ["dishonest"]).
+adjetivo(plural, masculino, ["deshonestos"], ["dishonest"]).
+adjetivo(plural, femenino, ["deshonestas"], ["dishonest"]).
+
+%deteriorado
+adjetivo(singular, masculino, ["deteriorado"], ["deteriorated"]).
+adjetivo(singular, femenino, ["deteriorada"], ["deteriorated"]).
+adjetivo(plural, masculino, ["deteriorados"], ["deteriorated"]).
+adjetivo(plural, femenino, ["deterioradas"], ["deteriorated"]).
+
+%difícil
+adjetivo(singular, masculino, ["difícil"], ["difficult"]).
+adjetivo(singular, femenino, ["difícil"], ["difficult"]).
+adjetivo(plural, masculino, ["difíciles"], ["difficult"]).
+adjetivo(plural, femenino, ["difíciles"], ["difficult"]).
+
+%
