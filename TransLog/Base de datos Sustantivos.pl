@@ -37,6 +37,7 @@ sustantivo(singular, masculino, "sendero", "trail").
 sustantivo(singular, masculino, "sol", "sun").
 sustantivo(singular, masculino, "sostén", "bra").
 sustantivo(singular, masculino, "sur", "south").
+sustantivo(singular, masculino, "sistema", "system").
 sustantivo(singular, masculino, "taladro", "drill").
 sustantivo(singular, masculino, "té", "tea").
 sustantivo(singular, masculino, "teclado", "keyboard").
@@ -78,6 +79,7 @@ sustantivo(singular, femenino, "piña", "pineapple").
 sustantivo(singular, femenino, "planta", "plant").
 sustantivo(singular, femenino, "prima", "cousin").
 sustantivo(singular, femenino, "princesa", "princess").
+sustantivo(singular, femenino, "programación", "programming").
 sustantivo(singular, femenino, "raíz", "root").
 sustantivo(singular, femenino, "reina", "queen").
 sustantivo(singular, femenino, "serie", "serie").
@@ -151,6 +153,7 @@ sustantivo(plural, masculino, "dolores", "pains").
 sustantivo(plural, masculino, "edificios", "buildings").
 sustantivo(plural, masculino, "ejemplos", "examples").
 sustantivo(plural, masculino, "equipos", "teams").
+sustantivo(plural, masculino, "esos", "those").
 sustantivo(plural, masculino, "estudiantes", "students").
 sustantivo(plural, masculino, "exámenes", "exams").
 sustantivo(plural, masculino, "futuros", "futures").
@@ -203,6 +206,7 @@ sustantivo(plural, masculino, "ríos", "rivers").
 sustantivo(plural, masculino, "emparedados", "sandwiches").
 sustantivo(plural, masculino, "segundos", "seconds").
 sustantivo(plural, masculino, "siglos", "ages").
+sustantivo(plural, masculino, "sistemas", "systems").
 sustantivo(plural, masculino, "soles", "suns").
 sustantivo(plural, masculino, "sonidos", "sounds").
 sustantivo(plural, masculino, "suelos", "soils").
@@ -261,6 +265,7 @@ sustantivo(plural, femenino, "direcciones", "directions").
 sustantivo(plural, femenino, "distancias", "distances").
 sustantivo(plural, femenino, "emergencias", "emergencies").
 sustantivo(plural, femenino, "energías", "energies").
+sustantivo(plural, femenino, "esas", "those").
 sustantivo(plural, femenino, "escuelas", "schools").
 sustantivo(plural, femenino, "esculturas", "sculptures").
 sustantivo(plural, femenino, "esferas", "spheres").
