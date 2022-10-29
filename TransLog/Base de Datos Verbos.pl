@@ -231,3 +231,45 @@ verbo(singular, tercera, "bebe", "drinks").
 verbo(plural, primera, "bebemos", "drink").
 verbo(plural, segunda, "beben", "drink").
 verbo(plural, tercera, "beben", "drink").
+
+%comer
+verbo(singular, primera, "como", "eat").
+verbo(singular, segunda, "comes", "eat").
+verbo(singular, segunda, "come", "eat").
+verbo(singular, tercera, "come", "eats").
+verbo(plural, primera, "comemos", "eat").
+verbo(plural, segunda, "comen", "eat").
+verbo(plural, tercera, "comen", "eat").
+
+%correr
+verbo(singular, primera, "corro", "run").
+verbo(singular, segunda, "corres", "run").
+verbo(singular, segunda, "corre", "run").
+verbo(singular, tercera, "corre", "runs").
+verbo(plural, primera, "corremos", "run").
+verbo(plural, segunda, "corren", "run").
+verbo(plural, tercera, "corren", "run").
+
+%pensar
+verbo(singular, primera, "pienso", "think").
+verbo(singular, segunda, "piensas", "think").
+verbo(singular, segunda, "piensa", "think").
+verbo(singular, tercera, "piensa", "thinks").
+verbo(plural, primera, "pensamos", "think").
+verbo(plural, segunda, "piensan", "think").
+verbo(plural, tercera, "piensan", "think").
+
+
+
+%Pronombres, agregar en la seccion preincipal o en otra seccion
+pronombre(singular, primera, ["me"], ["I"]).
+pronombre(singular, primera, ["yo"], ["I"]).
+pronombre(singular, segunda, ["tu"], ["you"]).
+pronombre(singular, segunda, ["usted"], ["you"]).
+pronombre(singular, tercera, ["el"], ["he"]).
+pronombre(singular, tercera, ["ella"], ["she"]).
+pronombre(singular, tercera, ["ello"], ["it"]).
+pronombre(plural, primera, ["nosotros"], ["we"]).
+pronombre(plural, segunda, ["ustedes"], ["you"]).
+pronombre(plural, tercera, ["ellos"], ["they"]).
+pronombre(plural, tercera, ["ellas"], ["they"]).
