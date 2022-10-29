@@ -273,3 +273,48 @@ pronombre(plural, primera, ["nosotros"], ["we"]).
 pronombre(plural, segunda, ["ustedes"], ["you"]).
 pronombre(plural, tercera, ["ellos"], ["they"]).
 pronombre(plural, tercera, ["ellas"], ["they"]).
+
+%determinantes, agregar en la seccion preincipal o en otra seccion
+determinante(singular, masculino, tercera, ["el"], ["the"]).
+determinante(singular, femenino, tercera, ["la"], ["the"]).
+determinante(plural, masculino, tercera, ["los"], ["the"]).
+
+%conjunciones, agregar en la seccion preincipal o en otra seccion
+conjuncion(["y"], ["and"]).
+conjuncion(["o"], ["or"]).
+
+%interrogativos, agregar en la seccion preincipal o en otra seccion
+interrogativo(["Quiénes"], ["Who"]).
+interrogativo(["Quién"], ["Who"]).
+interrogativo(["Qué"], ["What"]).
+interrogativo(["Cuál"], ["What"]).
+interrogativo(["Which"], ["Cual"]).
+interrogativo(["Cuándo"], ["When"]).
+interrogativo(["Por qué"], ["Why"]).
+interrogativo(["Dónde"], ["Where"]).
+interrogativo(["Cómo"], ["How"]).
+interrogativo(["Cuántos"], ["How much"]).
+interrogativo(["Cuántos"], ["How many"]).
+interrogativo(["Cuántos años"], ["How old"]).
+interrogativo(["Con qué frecuencia"], ["How often"]).
+interrogativo(["De quién"], ["Whose"]).
+
+%proposiciones, agregar en la seccion preincipal o en otra seccion
+preposicion(["de"], ["of"]).
+preposicion(["con"], ["with"]).
+preposicion(["del"], ["of the"]).
+
+%saludos, agregar en la seccion preincipal o en otra seccion
+saludo(["Hola"], ["Hello"]).
+saludo(["Buenos días"], ["Good morning"]).
+saludo(["Buenas tardes"], ["Good afternoon"]).
+saludo(["Buenas noches"], ["Good night"]).
+
+%despedidas, agregar en la seccion preincipal o en otra seccion
+despedida(["adiós"], ["goodbye"]).
+despedida(["nos vemos"], ["see you soon"]).
+despedida(["hasta pronto"], ["see you soon"]).
+despedida(["hasta siempre"], ["see you forever"]).
+despedida(["hasta luego"], ["bye"]).
+despedida(["hasta mañana"], ["see you tomorrow"]).
+despedida(["te veo luego"], ["see you later"]).
