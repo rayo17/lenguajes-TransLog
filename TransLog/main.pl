@@ -8,7 +8,7 @@ oracion:-
   read(Spanish), translate(Spanish), !.
 
 % Seleccion del idioma English para traducir al español.
-traslate(E) :- E = "In",
+translate(E) :- E = "In",
   write('Please type your text to be translated: '),
   nl,read(Spanish),
   split_string(Spanish, " ", "¿¡,", L),
@@ -21,7 +21,7 @@ translate(E) :- E = "Es",
   write('Ingresa el la frase para ser traducida: '),
   nl,
   read(Spanish),
-  split_string(spanish, " ", "¿¡,", L),
+  split_string(Spanish, " ", "¿¡,", L),
   oracion(L, K),
   atomic_list_concat(K, ' ', ListWordSpanish),
   write(ListWordSpanish).
@@ -38,7 +38,7 @@ text_unknown :- write('Hola, diculpa puedes volver a repetir la frase'), nl,
 % L: lista
 % ListaA, ListaB, ListaC, ListaX, ListaZ: son listas cualesquiera
 unir([], Lista, Lista). % caso base
-unir([head|R1], Lista, [head|R2]) :- unir(R1, Lista, R2).
+unir([Head|R1], Lista, [Head|R2]) :- unir(R1, Lista, R2).
 unir(ListaA, ListaB, ListaC, ListaZ)  :- unir(ListaA, ListaB, ListaX),
                                          unir(ListaX, ListaC, ListaZ).
 
@@ -48,8 +48,8 @@ unir(ListaA, ListaB, ListaC, ListaZ)  :- unir(ListaA, ListaB, ListaX),
 
 
 
-oracion(ListWordSpanish, listWordEnglish) :- simple_sentence(ListWordSpanish, listWordEnglish).
-oracion(ListWordSpanish, listWordEnglish) :- simple_sentence(spanish, English), conjuncion(spanishl2, English2),
+oracion(ListWordspanish, listWordEnglish) :- simple_sentence(ListWordspanish, listWordEnglish).
+oracion(ListWordspanish, listWordEnglish) :- simple_sentence(spanish, English), conjuncion(spanishl2, English2),
                                                       unir(spanish, spanishl2, spanishl3),
                                                       unir(English, English2, English3),
                                                       unir(spanishl3, Restospanishl, ListWordspanish),
