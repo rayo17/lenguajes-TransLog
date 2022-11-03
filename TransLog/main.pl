@@ -2,154 +2,156 @@
 :-include('Base de datos Sustantivos.pl').
 :-include('Base de Datos Verbos.pl').
 
-oracion:-
+% regla que se tiene que llamar desde la consola para 
+% realizar la traducción. Es lo que inicia el traductor
+
+oracion :-
   write('Ingrese el idioma a traducir '),
   nl,
-  read(Spanish), translate(Spanish), !.
+  read(Spanish), traductor(Spanish), !.
 
-% Seleccion del idioma English para traducir al español.
-translate(E) :- E = "In",
-  write('Please type your text to be translated: '),
-  nl,read(Spanish),
+
+% Seleccion del idioma English: traduce al idioma Español
+traductor(E) :- E = "In", 
+  write('Please type your text: '),
+  nl,
+  read(Spanish),
   split_string(Spanish, " ", "¿¡,", L),
   oracion(K, L),
-  atomic_list_concat(K, ' ', ListWordSpanish),
-  write(ListWordSpanish).
+  atomic_list_concat(K, ' ', ListWordsSpanish),
+  write(ListWordsSpanish).
 
-% seleccion del idioma en español, para traducir al English.
-translate(E) :- E = "Es",
-  write('Ingresa el la frase para ser traducida: '),
+% Seleccion del idioma Español: traduce al idioma Inglés
+traductor(E) :- E = "Es",
+  write('Ingresa el oracion: '),
   nl,
   read(Spanish),
   split_string(Spanish, " ", "¿¡,", L),
   oracion(L, K),
-  atomic_list_concat(K, ' ', ListWordSpanish),
-  write(ListWordSpanish).
+  atomic_list_concat(K, ' ', ListWordsSpanish),
+  write(ListWordsSpanish).
 
-% esta gramatica es para cuando la oracion introducida no es valida
-text_unknown :- write('Hola, diculpa puedes volver a repetir la frase'), nl,
-                 write('Intentalo de nuevo'), nl, oracion.
+% En caso de que la frase u oración no se reconozca
+no_reconocido :- write('Disculpa, no te he entendido'), nl,
+                 write('Intentalo de nuevo'), nl, 
+                 oracion.
 
-
-
-%Funcion que une las distintas partes de la oración que se encontraron
-% head: head de la lista
-% R: el REsto
+%Funcion que concatena las distintas partes de la oración que se encontraron
+% Cabeza: Cabeza de la lista
+% R: Resto
 % L: lista
-% ListaA, ListaB, ListaC, ListaX, ListaZ: son listas cualesquiera
+% ListaA, ListaB, ListaC, ListaX, ListaZ: son listas cualesquiera 
 unir([], Lista, Lista). % caso base
-unir([Head|R1], Lista, [Head|R2]) :- unir(R1, Lista, R2).
-unir(ListaA, ListaB, ListaC, ListaZ)  :- unir(ListaA, ListaB, ListaX),
-                                         unir(ListaX, ListaC, ListaZ).
-
+unir([Cabeza|R1], Lista, [Cabeza|R2]) :- unir(R1, Lista, R2).
+unir(ListaA, ListaB, ListaC, ListaZ)  :- unir(ListaA, ListaB, ListaX), 
+                                               unir(ListaX, ListaC, ListaZ).
 
 
 % ------------------------------------GRAMÁTICA LIBRE DE CONTEXTO-----------------------------------------
 
+oracion(ListWordsSpanish, ListWordsEnglish) :- oracion_simple(ListWordsSpanish, ListWordsEnglish).
+oracion(ListWordsSpanish, ListWordsEnglish) :- oracion_simple(Spanish, English), conjuncion(Spanish2, English2), 
+                                                      unir(Spanish, Spanish2, Spanish3), 
+                                                      unir(English, English2, English3), 
+                                                      unir(Spanish3, RestoSpanish, ListWordsSpanish), 
+                                                      unir(English3, RestoEnglish, ListWordsEnglish), 
+                                                      oracion(RestoSpanish, RestoEnglish).  
 
+oracion(ListWordsSpanish, ListWordsEnglish) :- oracion_simple(Spanish, English), preposicion(Spanish2, English2),
+                                                      unir(Spanish,Spanish2, Spanish3), 
+                                                      unir(English,English2, English3), 
+                                                      unir(Spanish3, RestoSpanish, ListWordsSpanish), 
+                                                      unir(English3, RestoEnglish, ListWordsEnglish), 
+                                                      oracion(RestoSpanish,RestoEnglish).
+                
 
-oracion(ListWordspanish, listWordEnglish) :- simple_sentence(ListWordspanish, listWordEnglish).
-oracion(ListWordspanish, listWordEnglish) :- simple_sentence(spanish, English), conjuncion(spanishl2, English2),
-                                                      unir(spanish, spanishl2, spanishl3),
-                                                      unir(English, English2, English3),
-                                                      unir(spanishl3, Restospanishl, ListWordspanish),
-                                                      unir(English3, RestoEnglish, listWordEnglish),
-                                                      oracion(Restospanishl, RestoEnglish).
-
-oracion(ListWordspanish, listWordEnglish) :- simple_sentence(spanish, English), preposicion(spanishl2, English2),
-                                                      unir(spanish,spanishl2, spanishl3),
-                                                      unir(English,English2, English3),
-                                                      unir(spanishl3, Restospanishl, ListWordspanish),
-                                                      unir(English3, RestoEnglish, listWordEnglish),
-                                                      oracion(Restospanishl,RestoEnglish).
-
-
-oracion(ListWordspanish, listWordEnglish) :- text_unknown, !.
-
-
-
+oracion(ListWordsSpanish, ListWordsEnglish) :- no_reconocido, !.
 
 % Es una subdivisión de una oración más compleja en una oración más simple. En este caso para
 % facilidad a la hora de formar oraciones con más elementos en la gramática
-% Person: significa la Person en la cual está conjugado algún elemento de la oración (primera, segunda, tercera)
+% Persona: significa la persona en la cual está conjugado algún elemento de la oración (primera, segunda, tercera) 
 
-simple_sentence(ListWordspanish, ListaPalabrasEnglish) :- saludo(spanish, English),
-                                                             unir(spanish, ["!"], ListWordspanish),
-                                                             unir(English, ["!"], ListaPalabrasEnglish).
+oracion_simple(ListWordsSpanish, ListWordsEnglish) :- saludo(Spanish, English), 
+                                                             unir(Spanish, ["!"], ListWordsSpanish), 
+                                                             unir(English, ["!"], ListWordsEnglish).
 
+% Esto es una excepción a la gramática, solo para temas de la especificación de la tarea
+oracion_simple(ListWordsSpanish, ListWordsEnglish) :- nominal_sintac(ListWordsSpanish, ListWordsEnglish, Persona).
 
-simple_sentence(ListWordspanish, ListaPalabrasEnglish) :-nominal_sintac(ListWordspanish, ListaPalabrasEnglish, Person).
-
-simple_sentence(ListWordspanish, ListaPalabrasEnglish) :-nominal_sintac(spanish, English, Person),
-                                                             verbal_sintac(spanishl2, English2, Person),
-                                                             unir(spanish, spanishl2, ListWordspanish),
-                                                             unir(English, English2, ListaPalabrasEnglish).
+oracion_simple(ListWordsSpanish, ListWordsEnglish) :- nominal_sintac(Spanish, English, Persona), 
+                                                             verbal_sintac(Spanish2, English2, Persona), 
+                                                             unir(Spanish, Spanish2, ListWordsSpanish), 
+                                                             unir(English, English2, ListWordsEnglish).
 
 % Esto es una excepción a la gramática, solo para temas de la especificación de la tarea. Se utiliza para
 % preguntas sencillas
-simple_sentence(ListWordspanish, ListaPalabrasEnglish) :- interrogativo(spanish, English),
-                                                             verbal_sintac(spanishl2, English2, Person),
-                                                             unir(spanish, spanishl2, Resultadospanishl),
-                                                             unir(Resultadospanishl, ["?"], ListWordspanish),
-                                                             unir(English, English2, ResultadoEnglish),
-                                                             unir(ResultadoEnglish, ["?"], ListaPalabrasEnglish).
+oracion_simple(ListWordsSpanish, ListWordsEnglish) :- interrogativo(Spanish, English), 
+                                                             verbal_sintac(Spanish2, English2, Persona), 
+                                                             unir(Spanish, Spanish2, ResultadoSpanish), 
+                                                             unir(ResultadoSpanish, ["?"], ListWordsSpanish), 
+                                                             unir(English, English2, ResultadoEnglish), 
+                                                             unir(ResultadoEnglish, ["?"], ListWordsEnglish).
 
 
 %-----------------------------------------SINTAGMA VERBAL------------------------------------------
 
 
-verbal_sintac(wordSpanish, WordEnglish, Person) :- verbo(Numero, Tiempo, Person, wordSpanish, WordEnglish).
-verbal_sintac(wordSpanish, WordEnglish, Person) :- verbo(Numero, Tiempo, Person, spanish, English),
-                                                          nominal_sintac(spanishl2, English2, Person),
-                                                           unir(spanish, spanishl2, wordSpanish),
-                                                           unir(English, English2, WordEnglish).
+
+verbal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- verbo(Numero, Persona, PalabraSpanish, PalabraEnglish).
+verbal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- verbo(Numero, Persona, Spanish, English),
+                                                           nominal_sintac(Spanish2, English2, Persona), 
+                                                           unir(Spanish, Spanish2, PalabraSpanish), 
+                                                           unir(English, English2, PalabraEnglish).
 
 
 %-------------------------------------------------SINTAGMA NOMINAL-----------------------------------
 
 
-nominal_sintac(wordSpanish, WordEnglish, Person) :- sustantivo(Numero, Genero, wordSpanish, WordEnglish).
-nominal_sintac(wordSpanish, WordEnglish, Person) :- pronombre(Numero, Person, wordSpanish, WordEnglish).nominal_sintac(wordSpanish, WordEnglish, Person).
-nominal_sintac(wordSpanish, WordEnglish, Person) :- adjetivo(Numero, Genero, wordSpanish, WordEnglish).
+
+% Estos son los elementos más atómicos del sintagma nominal
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- sustantivo(Numero, Genero, PalabraSpanish, PalabraEnglish).
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- pronombre(Numero, Persona, PalabraSpanish, PalabraEnglish).
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- adjetivo(Numero, Genero, PalabraSpanish, PalabraEnglish).
 
 
+% Estos son los elementos complejos del sintagma nominal
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- determinante(Numero, Genero, Persona, Spanish, English),
+                                                            sustantivo(Numero, Genero, Spanish2, English2),
+                                                            unir(Spanish, Spanish2, PalabraSpanish), 
+                                                            unir(English, English2, PalabraEnglish).
+
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- sustantivo(Numero, Genero, Spanish, English), 
+                                                            adjetivo(Numero, Genero, Spanish2, English2),
+                                                            unir(Spanish, Spanish2, PalabraSpanish), 
+                                                            unir(English2, English, PalabraEnglish).
+
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- determinante(Numero, Genero, Persona, Spanish, English),
+                                                            adjetivo(Numero, Genero, Spanish2, English2), 
+                                                            sustantivo(Numero, Genero, Spanish3, English3), 
+                                                            unir(Spanish, Spanish2, Spanish3, PalabraSpanish), 
+                                                            unir(English, English2, English3, PalabraEnglish).
+
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- determinante(Numero, Genero, Persona, Spanish, English),
+                                                            sustantivo(Numero, Genero, Spanish2, English2), 
+                                                            adjetivo(Numero, Genero, Spanish3, English3), 
+                                                            unir(Spanish, Spanish2, Spanish3, PalabraSpanish), 
+                                                            unir(English, English3, English2, PalabraEnglish).
+
+nominal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- adjetivo(Numero, Genero, Spanish, English), 
+                                                            adverbio(Spanish2, English2), 
+                                                            unir(Spanish, Spanish2, PalabraSpanish), 
+                                                            unir(English, English2, PalabraEnglish).
+
+saludo(["Hola"], ["Hello"]).
 
 
+adverbio(["comunmente"], ["commonly"]).
+adverbio(["hoy"], ["today"]).
 
-nominal_sintac(WordSpanish, WordEnglish, Person) :- determinante(Numero, Genero, Person, spanish, English),
-                                                            sustantivo(Numero, Genero, spanishl2, English2),
-                                                            unir(spanish, spanishl2, WordSpanish),
-                                                            unir(English, English2, WordEnglish).
-nominal_sintac(WordSpanish, WordEnglish, Person) :- sustantivo(Numero, Genero, spanish, English),
-                                                            adjetivo(Numero, Genero, spanishl2, English2),
-                                                            unir(spanish, spanishl2, WordSpanish),
-                                                            unir(English2, English, WordEnglish).
-nominal_sintac(WordSpanish, WordEnglish, Person) :- determinante(Numero, Genero, Person, spanish, English),
-                                                            adjetivo(Numero, Genero, spanishl2, English2),
-                                                            sustantivo(Numero, Genero, spanishl3, English3),
-                                                            unir(spanish, spanishl2, spanishl3, WordSpanish),
-                                                            unir(English, English2, English3, WordEnglish).
-nominal_sintac(WordSpanish, WordEnglish, Person) :- determinante(Numero, Genero, Person, spanish, English),
-                                                            sustantivo(Numero, Genero, spanishl2, English2),
-                                                            adjetivo(Numero, Genero, spanishl3, English3),
-                                                            unir(spanish, spanishl2, spanishl3, WordSpanish),
-                                                            unir(English, English3, English2, WordEnglish).
-nominal_sintac(WordSpanish, WordEnglish, Person) :- adjetivo(Numero, Genero, spanish, English),
-                                                            adverbio(spanishl2, English2),
-                                                            unir(spanish, spanishl2, WordSpanish),
-                                                            unir(English, English2, WordEnglish).
+determinante(singular, masculino, tercera, ["el"], ["the"]).
+determinante(singular, femenino, tercera, ["la"], ["the"]).
+determinante(plural, masculino, tercera, ["los"], ["the"]).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+conjuncion(["y"], ["and"]).
+conjuncion(["o"], ["or"]).
+sustantivo(plural, femenino, ["sillas"], ["chairs"]).
