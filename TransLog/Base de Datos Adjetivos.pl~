@@ -21,7 +21,7 @@ adjetivo(singular, masculino, ["amarillo"], ["yellow"]).
 adjetivo(singular, femenino, ["amarilla"], ["yellow"]).
 adjetivo(plural, masculino, ["amarillos"], ["yellow"]).
 adjetivo(plural, femenino, ["amarillas"], ["yellow"]).
-
+/*
 %anaranjado
 adjetivo(singular, masculino, ["anaranjado"], ["orange"]).
 adjetivo(singular, femenino, ["anaranjada"], ["orange"]).
@@ -112,7 +112,20 @@ adjetivo(singular, femenino, ["ccompleja"], ["complex"]).
 adjetivo(plural, masculino, ["complejos"], ["complex"]).
 adjetivo(plural, femenino, ["complejas"], ["comolex"]).
 
-%complicado
+interrogativo(["Quieenes"], ["Who"]).
+interrogativo(["Quieen"], ["Who"]).
+interrogativo(["Quee"], ["What"]).
+interrogativo(["Cuaal"], ["What"]).
+interrogativo(["Which"], ["Cual"]).
+interrogativo(["Cuaando"], ["When"]).
+interrogativo(["Por_quee"], ["Why"]).
+interrogativo(["Doonde"], ["Where"]).
+interrogativo(["Coomo"], ["How"]).
+interrogativo(["Cuaantos"], ["How_much"]).
+interrogativo(["Cuaantos"], ["How_many"]).
+interrogativo(["Cuaantos_anios"], ["How_old"]).
+interrogativo(["Con_quee_frecuencia"], ["How often"]).
+interrogativo(["De_quieen"], ["Whose"]).%complicado
 adjetivo(singular, masculino, ["complicado"], ["complicated"]).
 adjetivo(singular, femenino, ["complicada"], ["complicated"]).
 adjetivo(plural, masculino, ["complicados"], ["complicated"]).
@@ -321,7 +334,20 @@ adjetivo(singular, masculino, ["insatisfecho"], ["dissatisfied"]).
 adjetivo(singular, femenino, ["insatisfecha"], ["dissatisfied"]).
 adjetivo(plural, masculino, ["insatisfechos"], ["dissatisfied"]).
 adjetivo(plural, femenino, ["insatisfechas"], ["dissatisfied"]).
-
+interrogativo(["Quieenes"], ["Who"]).
+interrogativo(["Quieen"], ["Who"]).
+interrogativo(["Quee"], ["What"]).
+interrogativo(["Cuaal"], ["What"]).
+interrogativo(["Which"], ["Cual"]).
+interrogativo(["Cuaando"], ["When"]).
+interrogativo(["Por_quee"], ["Why"]).
+interrogativo(["Doonde"], ["Where"]).
+interrogativo(["Coomo"], ["How"]).
+interrogativo(["Cuaantos"], ["How_much"]).
+interrogativo(["Cuaantos"], ["How_many"]).
+interrogativo(["Cuaantos_anios"], ["How_old"]).
+interrogativo(["Con_quee_frecuencia"], ["How often"]).
+interrogativo(["De_quieen"], ["Whose"]).
 %inteligente
 adjetivo(singular, masculino, ["inteligente"], ["smart"]).
 adjetivo(singular, femenino, ["inteligente"], ["smart"]).
@@ -538,3 +564,4 @@ adjetivo(singular, masculino, ["voluptuoso"], ["voluptuous"]).
 adjetivo(singular, femenino, ["voluptuosa"], ["voluptuous"]).
 adjetivo(plural, masculino, ["voluptuosos"], ["voluptuous"]).
 adjetivo(plural, femenino, ["voluptuosas"], ["voluptuous"]).
+*/

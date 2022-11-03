@@ -1,3 +1,14 @@
+/*
+Base de datos Verbos.pl
+Desarrolado por: Olman rodríguez, Joan Ugalde y Andres Rayo
+Tarea 2
+Descripción: Base de datos donde se encuentran todos los
+verbos en todas sus derivaciones solicitadas, ademas de contener los
+pronombres, interrogativos, etc.
+Instituto Tecnológico de Costa Rica |
+Lenguajes, Compiladores e Interpretes
+*/
+
 %ser
 verbo(singular, presente, primera, ["soy"], ["am"]).
 verbo(singular, presente, segunda, ["eres"], ["are"]).

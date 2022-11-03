@@ -1,3 +1,14 @@
+/*
+Base de datos Sustantivos.pl
+Desarrolado por: Olman rodríguez, Joan Ugalde y Andres Rayo
+Tarea 2
+Descripción: Base de datos donde se encuentran todos los
+sustantivo(plurales, singulares, femeninos y masculinos)
+Instituto
+Tecnológico de Costa Rica
+Lenguajes, Compiladores e
+Interpretes
+*/
 sustantivo(singular, masculino, ["adorno"], ["ornament"]).
 sustantivo(singular, masculino, ["amanecer"], ["dawn"]).
 sustantivo(singular, masculino, ["amor"], ["love"]).

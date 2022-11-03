@@ -43,7 +43,7 @@ sustantivo(singular, masculino, ["tee"], ["tea"]).
 sustantivo(singular, masculino, ["teclado"], ["keyboard"]).
 sustantivo(singular, masculino, ["zorro"], ["fox"]).
 sustantivo(singular, masculino, ["universo"], ["universe"]).
-
+/*
 %femenino
 sustantivo(singular, femenino, ["accioon"], ["action"]).
 sustantivo(singular, femenino, ["actriz"], ["actress"]).
@@ -342,3 +342,4 @@ sustantivo(plural, femenino, ["vacantes"], ["vacancies"]).
 sustantivo(plural, femenino, ["ventanas"], ["windows"]).
 sustantivo(plural, femenino, ["vidas"], ["lifes"]).
 sustantivo(plural, femenino, ["zanahorias"], ["carrots"]).
+*/

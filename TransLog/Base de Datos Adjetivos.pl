@@ -1,3 +1,13 @@
+/*
+Base de datos Adjetivos.pl
+Desarrolado por: Olman rodríguez, Joan Ugalde y Andres Rayo
+Tarea 2
+Descripción: Base de datos donde se encuentran todos los
+adjetivostanto femeninos como masculinos, singulares y plurales
+Instituto Tecnológico de Costa Rica |
+Lenguajes, Compiladores e Interpretes
+*/
+
 %afortunado
 adjetivo(singular, masculino, ["afortunado"], ["lucky"]).
 adjetivo(singular, femenino, ["afortunada"], ["lucky"]).
