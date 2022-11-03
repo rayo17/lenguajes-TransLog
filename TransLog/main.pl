@@ -4,7 +4,7 @@
 
 % regla que se tiene que llamar desde la consola para 
 % realizar la traducción. Es lo que inicia el traductor
-
+%Oracion
 oracion :-
   write('Ingrese el idioma a traducir '),
   nl,
