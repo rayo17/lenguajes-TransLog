@@ -9,12 +9,12 @@ verbo(plural, presente, tercera, ["son"], ["are"]).
 
 %estar
 verbo(singular, presente, primera, ["estoy"], ["am"]).
-verbo(singular, presente, segunda, ["estás"], ["are"]).
-verbo(singular, presente, segunda, ["está"], ["are"]).
-verbo(singular, presente, tercera, ["está"], ["is"]).
+verbo(singular, presente, segunda, ["estaas"], ["are"]).
+verbo(singular, presente, segunda, ["estaa"], ["are"]).
+verbo(singular, presente, tercera, ["estaa"], ["is"]).
 verbo(plural, presente, primera, ["estamos"], ["are"]).
-verbo(plural, presente, segunda, ["están"], ["are"]).
-verbo(plural, presente, tercera, ["están"], ["are"]).
+verbo(plural, presente, segunda, ["estaan"], ["are"]).
+verbo(plural, presente, tercera, ["estaan"], ["are"]).
 
 %preguntar
 verbo(singular, presente, primera, ["pregunto"], ["ask"]).
@@ -107,7 +107,7 @@ verbo(plural, presente, segunda, ["tienen"], ["have"]).
 verbo(plural, presente, tercera, ["tienen"], ["have"]).
 
 %saber
-verbo(singular, presente, primera, ["sé"], ["know"]).
+verbo(singular, presente, primera, ["see"], ["know"]).
 verbo(singular, presente, segunda, ["sabes"], ["know"]).
 verbo(singular, presente, segunda, ["sabe"], ["know"]).
 verbo(singular, presente, tercera, ["sabe"], ["knows"]).
@@ -188,89 +188,91 @@ verbo(plural, presente, segunda, "piensan", "think").
 verbo(plural, presente, tercera, "piensan", "thinks").
 
 %intentar
-verbo(singular, presente, primera, "intento", "try").
-verbo(singular, presente, segunda, "intentas", "try").
-verbo(singular, presente, segunda, "intenta", "try").
-verbo(singular, presente, tercera, "intenta", "tries").
-verbo(plural, presente, primera, "intentamos", "try").
-verbo(plural, presente, segunda, "intentan", "try").
-verbo(plural, presente, tercera, "intentan", "try").
+verbo(singular, presente, primera, ["intento"], ["try"]).
+verbo(singular, presente, segunda, ["intentas"], ["try"]).
+verbo(singular, presente, segunda, ["intenta"], ["try"]).
+verbo(singular, presente, tercera, ["intenta"], ["tries"]).
+verbo(plural, presente, primera, ["intentamos"], ["try"]).
+verbo(plural, presente, segunda, ["intentan"], ["try"]).
+verbo(plural, presente, tercera, ["intentan"], ["try"]).
 
 %usar
-verbo(singular, presente, primera, "uso", "use").
-verbo(singular, presente, segunda, "usas", "use").
-verbo(singular, presente, segunda, "usa", "use").
-verbo(singular, presente, tercera, "usa", "uses").
-verbo(plural, presente, primera, "usamos", "use").
-verbo(plural, presente, segunda, "usan", "use").
-verbo(plural, presente, tercera, "usan", "use").
+verbo(singular, presente, primera, ["uso"], ["use"]).
+verbo(singular, presente, segunda, ["usas"], ["use"]).
+verbo(singular, presente, segunda, ["usa"], ["use"]).
+verbo(singular, presente, tercera, ["usa"], ["uses"]).
+verbo(plural, presente, primera, ["usamos"], ["use"]).
+verbo(plural, presente, segunda, ["usan"], ["use"]).
+verbo(plural, presente, tercera, ["usan"], ["use"]).
 
 %querer
-verbo(singular, presente, primera, "quiero", "want").
-verbo(singular, presente, segunda, "quieres", "want").
-verbo(singular, presente, segunda, "quiere", "want").
-verbo(singular, presente, tercera, "quiere", "wants").
-verbo(plural, presente, primera, "queremos", "want").
-verbo(plural, presente, segunda, "quieren", "want").
-verbo(plural, presente, tercera, "quieren", "want").
+verbo(singular, presente, primera, ["quiero"], ["want"]).
+verbo(singular, presente, segunda, ["quieres"], ["want"]).
+verbo(singular, presente, segunda, ["quiere"], ["want"]).
+verbo(singular, presente, tercera, ["quiere"], ["wants"]).
+verbo(plural, presente, primera, ["queremos"], ["want"]).
+verbo(plural, presente, segunda, ["quieren"], ["want"]).
+verbo(plural, presente, tercera, ["quieren"], ["want"]).
 
 %trabajar
-verbo(singular, presente, primera, "trabajo", "work").
-verbo(singular, presente, segunda, "trabajas", "work").
-verbo(singular, presente, segunda, "trabaja", "work").
-verbo(singular, presente, tercera, "trabaja", "works").
-verbo(plural, presente, primera, "trabajamos", "work").
-verbo(plural, presente, segunda, "trabajan", "work").
-verbo(plural, presente, tercera, "trabajan", "work").
+verbo(singular, presente, primera, ["trabajo"], ["work"]).
+verbo(singular, presente, segunda, ["trabajas"], ["work"]).
+verbo(singular, presente, segunda, ["trabaja"], ["work"]).
+verbo(singular, presente, tercera, ["trabaja"], ["works"]).
+verbo(plural, presente, primera, ["trabajamos"], ["work"]).
+verbo(plural, presente, segunda, ["trabajan"], ["work"]).
+verbo(plural, presente, tercera, ["trabajan"], ["work"]).
 
 %beber
-verbo(singular, presente, primera, "bebo", "drink").
-verbo(singular, presente, segunda, "bebes", "drink").
-verbo(singular, presente, segunda, "bebe", "drink").
-verbo(singular, presente, tercera, "bebe", "drinks").
-verbo(plural, presente, primera, "bebemos", "drink").
-verbo(plural, presente, segunda, "beben", "drink").
-verbo(plural, presente, tercera, "beben", "drink").
+verbo(singular, presente, primera, ["bebo"], ["drink"]).
+verbo(singular, presente, segunda, ["bebes"], ["drink"]).
+verbo(singular, presente, segunda, ["bebe"], ["drink"]).
+verbo(singular, presente, tercera, ["bebe"], ["drinks"]).
+verbo(plural, presente, primera, ["bebemos"], ["drink"]).
+verbo(plural, presente, segunda, ["beben"], ["drink"]).
+verbo(plural, presente, tercera, ["beben"], ["drink"]).
 
 %comer
-verbo(singular, presente, primera, "como", "eat").
-verbo(singular, presente, segunda, "comes", "eat").
-verbo(singular, presente, segunda, "come", "eat").
-verbo(singular, presente, tercera, "come", "eats").
-verbo(plural, presente, primera, "comemos", "eat").
-verbo(plural, presente, segunda, "comen", "eat").
-verbo(plural, presente, tercera, "comen", "eat").
+verbo(singular, presente, primera, ["como"], ["eat"]).
+verbo(singular, presente, segunda, ["comes"], ["eat"]).
+verbo(singular, presente, segunda, ["come"], ["eat"]).
+verbo(singular, presente, tercera, ["come"], ["eats"]).
+verbo(plural, presente, primera, ["comemos"], ["eat"]).
+verbo(plural, presente, segunda, ["comen"], ["eat"]).
+verbo(plural, presente, tercera, ["comen"], ["eat"]).
 
 %correr
-verbo(singular, presente, primera, "corro", "run").
-verbo(singular, presente, segunda, "corres", "run").
-verbo(singular, presente, segunda, "corre", "run").
-verbo(singular, presente, tercera, "corre", "runs").
-verbo(plural, presente, primera, "corremos", "run").
-verbo(plural, presente, segunda, "corren", "run").
-verbo(plural, presente, tercera, "corren", "run").
+verbo(singular, presente, primera, ["corro"], ["run"]).
+verbo(singular, presente, segunda, ["corres"], ["run"]).
+verbo(singular, presente, segunda, ["corre"], ["run"]).
+verbo(singular, presente, tercera, ["corre"], ["runs"]).
+verbo(plural, presente, primera, ["corremos"], ["run"]).
+verbo(plural, presente, segunda, ["corren"], ["run"]).
+verbo(plural, presente, tercera, ["corren"], ["run"]).
 
 %pensar
-verbo(singular, presente, primera, "pienso", "think").
-verbo(singular, presente, segunda, "piensas", "think").
-verbo(singular, presente, segunda, "piensa", "think").
-verbo(singular, presente, tercera, "piensa", "thinks").
-verbo(plural, presente, primera, "pensamos", "think").
-verbo(plural, presente, segunda, "piensan", "think").
-verbo(plural, presente, tercera, "piensan", "think").
+verbo(singular, presente, primera, ["pienso"], ["think"]).
+verbo(singular, presente, segunda, ["piensas"], ["think"]).
+verbo(singular, presente, segunda, ["piensa"], ["think"]).
+verbo(singular, presente, tercera, ["piensa"], ["thinks"]).
+verbo(plural, presente, primera, ["pensamos"], ["think"]).
+verbo(plural, presente, segunda, ["piensan"], ["think"]).
+verbo(plural, presente, tercera, ["piensan"], ["think"]).
+
+
 
 
 
 %Pronombres, agregar en la seccion preincipal o en otra seccion
 pronombre(singular, primera, ["me"], ["I"]).
 pronombre(singular, primera, ["yo"], ["I"]).
-pronombre(singular, segunda, ["tu"], ["you"]).
 pronombre(singular, segunda, ["usted"], ["you"]).
-pronombre(singular, tercera, ["el"], ["he"]).
+pronombre(singular, segunda, ["tuu"], ["you"]).
+pronombre(singular, tercera, ["eel"], ["he"]).
 pronombre(singular, tercera, ["ella"], ["she"]).
 pronombre(singular, tercera, ["ello"], ["it"]).
 pronombre(plural, primera, ["nosotros"], ["we"]).
-pronombre(plural, segunda, ["ustedes"], ["you"]).
+pronombre(plural, segunda, ["vosotros"], ["you"]).
 pronombre(plural, tercera, ["ellos"], ["they"]).
 pronombre(plural, tercera, ["ellas"], ["they"]).
 
@@ -284,20 +286,20 @@ conjuncion(["y"], ["and"]).
 conjuncion(["o"], ["or"]).
 
 %interrogativos, agregar en la seccion preincipal o en otra seccion
-interrogativo(["Quiénes"], ["Who"]).
-interrogativo(["Quién"], ["Who"]).
-interrogativo(["Qué"], ["What"]).
-interrogativo(["Cuál"], ["What"]).
+interrogativo(["Quieenes"], ["Who"]).
+interrogativo(["Quieen"], ["Who"]).
+interrogativo(["Quee"], ["What"]).
+interrogativo(["Cuaal"], ["What"]).
 interrogativo(["Which"], ["Cual"]).
-interrogativo(["Cuándo"], ["When"]).
-interrogativo(["Por_qué"], ["Why"]).
-interrogativo(["Dónde"], ["Where"]).
-interrogativo(["Cómo"], ["How"]).
-interrogativo(["Cuántos"], ["How_much"]).
-interrogativo(["Cuántos"], ["How_many"]).
-interrogativo(["Cuántos_años"], ["How_old"]).
-interrogativo(["Con_qué_frecuencia"], ["How_often"]).
-interrogativo(["De_quién"], ["Whose"]).
+interrogativo(["Cuaando"], ["When"]).
+interrogativo(["Por_quee"], ["Why"]).
+interrogativo(["Doonde"], ["Where"]).
+interrogativo(["Coomo"], ["How"]).
+interrogativo(["Cuaantos"], ["How_much"]).
+interrogativo(["Cuaantos"], ["How_many"]).
+interrogativo(["Cuaantos_anios"], ["How_old"]).
+interrogativo(["Con_quee_frecuencia"], ["How often"]).
+interrogativo(["De_quieen"], ["Whose"]).
 
 %proposiciones, agregar en la seccion preincipal o en otra seccion
 preposicion(["de"], ["of"]).
@@ -306,12 +308,12 @@ preposicion(["del"], ["of the"]).
 
 %saludos, agregar en la seccion preincipal o en otra seccion
 saludo(["Hola"], ["Hello"]).
-saludo(["Buenos_días"], ["Good_morning"]).
+saludo(["Buenos_diias"], ["Good_morning"]).
 saludo(["Buenas_tardes"], ["Good_afternoon"]).
 saludo(["Buenas_noches"], ["Good_night"]).
 
 %despedidas, agregar en la seccion preincipal o en otra seccion
-despedida(["adiós"], ["goodbye"]).
+despedida(["adioos"], ["goodbye"]).
 despedida(["nos_vemos"], ["see_you_soon"]).
 despedida(["hasta_pronto"], ["see_you-soon"]).
 despedida(["hasta_siempre"], ["see_you_forever"]).

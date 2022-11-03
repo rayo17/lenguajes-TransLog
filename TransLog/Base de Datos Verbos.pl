@@ -15,7 +15,7 @@ verbo(singular, presente, tercera, ["estaa"], ["is"]).
 verbo(plural, presente, primera, ["estamos"], ["are"]).
 verbo(plural, presente, segunda, ["estaan"], ["are"]).
 verbo(plural, presente, tercera, ["estaan"], ["are"]).
-
+/*
 %preguntar
 verbo(singular, presente, primera, ["pregunto"], ["ask"]).
 verbo(singular, presente, segunda, ["preguntas"], ["ask"]).
@@ -259,7 +259,7 @@ verbo(plural, presente, primera, ["pensamos"], ["think"]).
 verbo(plural, presente, segunda, ["piensan"], ["think"]).
 verbo(plural, presente, tercera, ["piensan"], ["think"]).
 
-
+*/
 
 
 
