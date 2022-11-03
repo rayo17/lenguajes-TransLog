@@ -1,263 +1,263 @@
 %ser
-verbo(singular, primera, ["soy"], ["am"]).
-verbo(singular, segunda, ["eres"], ["are"]).
-verbo(singular, segunda, ["es"], ["are"]).
-verbo(singular, tercera, ["es"], ["is"]).
-verbo(plural, primera, ["somos"], ["are"]).
-verbo(plural, segunda, ["son"], ["are"]).
-verbo(plural, tercera, ["son"], ["are"]).
+verbo(singular, presente, primera, ["soy"], ["am"]).
+verbo(singular, presente, segunda, ["eres"], ["are"]).
+verbo(singular, presente, segunda, ["es"], ["are"]).
+verbo(singular, presente, tercera, ["es"], ["is"]).
+verbo(plural, presente, primera, ["somos"], ["are"]).
+verbo(plural, presente, segunda, ["son"], ["are"]).
+verbo(plural, presente, tercera, ["son"], ["are"]).
 
 %estar
-verbo(singular, primera, ["estoy"], ["am"]).
-verbo(singular, segunda, ["estás"], ["are"]).
-verbo(singular, segunda, ["está"], ["are"]).
-verbo(singular, tercera, ["está"], ["is"]).
-verbo(plural, primera, ["estamos"], ["are"]).
-verbo(plural, segunda, ["están"], ["are"]).
-verbo(plural, tercera, ["están"], ["are"]).
+verbo(singular, presente, primera, ["estoy"], ["am"]).
+verbo(singular, presente, segunda, ["estás"], ["are"]).
+verbo(singular, presente, segunda, ["está"], ["are"]).
+verbo(singular, presente, tercera, ["está"], ["is"]).
+verbo(plural, presente, primera, ["estamos"], ["are"]).
+verbo(plural, presente, segunda, ["están"], ["are"]).
+verbo(plural, presente, tercera, ["están"], ["are"]).
 
 %preguntar
-verbo(singular, primera, ["pregunto"], ["ask"]).
-verbo(singular, segunda, ["preguntas"], ["ask"]).
-verbo(singular, segunda, ["pregunta"], ["ask"]).
-verbo(singular, tercera, ["pregunta"], ["asks"]).
-verbo(plural, primera, ["preguntamos"], ["ask"]).
-verbo(plural, segunda, ["preguntais"], ["ask"]).
-verbo(plural, tercera, ["preguntan"], ["ask"]).
+verbo(singular, presente, primera, ["pregunto"], ["ask"]).
+verbo(singular, presente, segunda, ["preguntas"], ["ask"]).
+verbo(singular, presente, segunda, ["pregunta"], ["ask"]).
+verbo(singular, presente, tercera, ["pregunta"], ["asks"]).
+verbo(plural, presente, primera, ["preguntamos"], ["ask"]).
+verbo(plural, presente, segunda, ["preguntais"], ["ask"]).
+verbo(plural, presente, tercera, ["preguntan"], ["ask"]).
 
 %llamar
-verbo(singular, primera, ["llamo"], ["call"]).
-verbo(singular, segunda, ["llamas"], ["call"]).
-verbo(singular, segunda, ["llama"], ["call"]).
-verbo(singular, tercera, ["llama"], ["calls"]).
-verbo(plural, primera, ["llamamos"], ["call"]).
-verbo(plural, segunda, ["llaman"], ["call"]).
-verbo(plural, tercera, ["llaman"], ["call"]).
+verbo(singular, presente, primera, ["llamo"], ["call"]).
+verbo(singular, presente, segunda, ["llamas"], ["call"]).
+verbo(singular, presente, segunda, ["llama"], ["call"]).
+verbo(singular, presente, tercera, ["llama"], ["calls"]).
+verbo(plural, presente, primera, ["llamamos"], ["call"]).
+verbo(plural, presente, segunda, ["llaman"], ["call"]).
+verbo(plural, presente, tercera, ["llaman"], ["call"]).
 
 %venir
-verbo(singular, primera, ["vengo"], ["come"]).
-verbo(singular, segunda, ["vienes"], ["come"]).
-verbo(singular, segunda, ["viene"], ["come"]).
-verbo(singular, tercera, ["viene"], ["comes"]).
-verbo(plural, primera, ["venimos"], ["come"]).
-verbo(plural, segunda, ["vienen"], ["come"]).
-verbo(plural, tercera, ["vienen"], ["come"]).
+verbo(singular, presente, primera, ["vengo"], ["come"]).
+verbo(singular, presente, segunda, ["vienes"], ["come"]).
+verbo(singular, presente, segunda, ["viene"], ["come"]).
+verbo(singular, presente, tercera, ["viene"], ["comes"]).
+verbo(plural, presente, primera, ["venimos"], ["come"]).
+verbo(plural, presente, segunda, ["vienen"], ["come"]).
+verbo(plural, presente, tercera, ["vienen"], ["come"]).
 
 %hacer/* verificar como agregar do sin afectar make*/
-verbo(singular, primera, ["hago"], ["make"]).
-verbo(singular, segunda, ["haces"], ["make"]).
-verbo(singular, segunda, ["hace"], ["make"]).
-verbo(singular, tercera, ["hace"], ["makes"]).
-verbo(plural, primera, ["hacemos"], ["make"]).
-verbo(plural, segunda, ["hacen"], ["make"]).
-verbo(plural, tercera, ["hacen"], ["make"]).
+verbo(singular, presente, primera, ["hago"], ["make"]).
+verbo(singular, presente, segunda, ["haces"], ["make"]).
+verbo(singular, presente, segunda, ["hace"], ["make"]).
+verbo(singular, presente, tercera, ["hace"], ["makes"]).
+verbo(plural, presente, primera, ["hacemos"], ["make"]).
+verbo(plural, presente, segunda, ["hacen"], ["make"]).
+verbo(plural, presente, tercera, ["hacen"], ["make"]).
 
 %sentir
-verbo(singular, primera, ["siento"], ["feels"]).
-verbo(singular, segunda, ["sientes"], ["feels"]).
-verbo(singular, segunda, ["siente"], ["feels"]).
-verbo(singular, tercera, ["siente"], ["feels"]).
-verbo(plural, primera, ["sentimos"], ["feels"]).
-verbo(plural, segunda, ["sienten"], ["feels"]).
-verbo(plural, tercera, ["sienten"], ["feels"]).
+verbo(singular, presente, primera, ["siento"], ["feels"]).
+verbo(singular, presente, segunda, ["sientes"], ["feels"]).
+verbo(singular, presente, segunda, ["siente"], ["feels"]).
+verbo(singular, presente, tercera, ["siente"], ["feels"]).
+verbo(plural, presente, primera, ["sentimos"], ["feels"]).
+verbo(plural, presente, segunda, ["sienten"], ["feels"]).
+verbo(plural, presente, tercera, ["sienten"], ["feels"]).
 
 %encontrar
-verbo(singular, primera, ["encuentro"], ["find"]).
-verbo(singular, segunda, ["encuentras"], ["find"]).
-verbo(singular, segunda, ["encuentra"], ["find"]).
-verbo(singular, tercera, ["encuentra"], ["finds"]).
-verbo(plural, primera, ["encontramos"], ["find"]).
-verbo(plural, segunda, ["encuentran"], ["find"]).
-verbo(plural, tercera, ["encuentran"], ["find"]).
+verbo(singular, presente, primera, ["encuentro"], ["find"]).
+verbo(singular, presente, segunda, ["encuentras"], ["find"]).
+verbo(singular, presente, segunda, ["encuentra"], ["find"]).
+verbo(singular, presente, tercera, ["encuentra"], ["finds"]).
+verbo(plural, presente, primera, ["encontramos"], ["find"]).
+verbo(plural, presente, segunda, ["encuentran"], ["find"]).
+verbo(plural, presente, tercera, ["encuentran"], ["find"]).
 
 %obtener
-verbo(singular, primera, ["obtengo"], ["get"]).
-verbo(singular, segunda, ["obtienes"], ["get"]).
-verbo(singular, segunda, ["obtiene"], ["get"]).
-verbo(singular, tercera, ["obtiene"], ["gets"]).
-verbo(plural, primera, ["obtenemos"], ["get"]).
-verbo(plural, segunda, ["obtienen"], ["get"]).
-verbo(plural, tercera, ["obtienen"], ["get"]).
+verbo(singular, presente, primera, ["obtengo"], ["get"]).
+verbo(singular, presente, segunda, ["obtienes"], ["get"]).
+verbo(singular, presente, segunda, ["obtiene"], ["get"]).
+verbo(singular, presente, tercera, ["obtiene"], ["gets"]).
+verbo(plural, presente, primera, ["obtenemos"], ["get"]).
+verbo(plural, presente, segunda, ["obtienen"], ["get"]).
+verbo(plural, presente, tercera, ["obtienen"], ["get"]).
 
 %dar
-verbo(singular, primera, ["doy"], ["give"]).
-verbo(singular, segunda, ["das"], ["give"]).
-verbo(singular, segunda, ["da"], ["give"]).
-verbo(singular, tercera, ["da"], ["gives"]).
-verbo(plural, primera, ["damos"], ["give"]).
-verbo(plural, segunda, ["dan"], ["give"]).
-verbo(plural, tercera, ["dan"], ["give"]).
+verbo(singular, presente, primera, ["doy"], ["give"]).
+verbo(singular, presente, segunda, ["das"], ["give"]).
+verbo(singular, presente, segunda, ["da"], ["give"]).
+verbo(singular, presente, tercera, ["da"], ["gives"]).
+verbo(plural, presente, primera, ["damos"], ["give"]).
+verbo(plural, presente, segunda, ["dan"], ["give"]).
+verbo(plural, presente, tercera, ["dan"], ["give"]).
 
 %ir
-verbo(singular, primera, ["voy"], ["go"]).
-verbo(singular, segunda, ["vas"], ["go"]).
-verbo(singular, segunda, ["va"], ["go"]).
-verbo(singular, tercera, ["va"], ["goes"]).
-verbo(plural, primera, ["vamos"], ["go"]).
-verbo(plural, segunda, ["van"], ["go"]).
-verbo(plural, tercera, ["van"], ["go"]).
+verbo(singular, presente, primera, ["voy"], ["go"]).
+verbo(singular, presente, segunda, ["vas"], ["go"]).
+verbo(singular, presente, segunda, ["va"], ["go"]).
+verbo(singular, presente, tercera, ["va"], ["goes"]).
+verbo(plural, presente, primera, ["vamos"], ["go"]).
+verbo(plural, presente, segunda, ["van"], ["go"]).
+verbo(plural, presente, tercera, ["van"], ["go"]).
 
 %tener
-verbo(singular, primera, ["tengo"], ["have"]).
-verbo(singular, segunda, ["tienes"], ["have"]).
-verbo(singular, segunda, ["tiene"], ["have"]).
-verbo(singular, tercera, ["tiene"], ["has"]).
-verbo(plural, primera, ["tenemos"], ["have"]).
-verbo(plural, segunda, ["tienen"], ["have"]).
-verbo(plural, tercera, ["tienen"], ["have"]).
+verbo(singular, presente, primera, ["tengo"], ["have"]).
+verbo(singular, presente, segunda, ["tienes"], ["have"]).
+verbo(singular, presente, segunda, ["tiene"], ["have"]).
+verbo(singular, presente, tercera, ["tiene"], ["has"]).
+verbo(plural, presente, primera, ["tenemos"], ["have"]).
+verbo(plural, presente, segunda, ["tienen"], ["have"]).
+verbo(plural, presente, tercera, ["tienen"], ["have"]).
 
 %saber
-verbo(singular, primera, ["sé"], ["know"]).
-verbo(singular, segunda, ["sabes"], ["know"]).
-verbo(singular, segunda, ["sabe"], ["know"]).
-verbo(singular, tercera, ["sabe"], ["knows"]).
-verbo(plural, primera, ["sabemos"], ["knows"]).
-verbo(plural, segunda, ["saben"], ["know"]).
-verbo(plural, tercera, ["saben"], ["know"]).
+verbo(singular, presente, primera, ["sé"], ["know"]).
+verbo(singular, presente, segunda, ["sabes"], ["know"]).
+verbo(singular, presente, segunda, ["sabe"], ["know"]).
+verbo(singular, presente, tercera, ["sabe"], ["knows"]).
+verbo(plural, presente, primera, ["sabemos"], ["knows"]).
+verbo(plural, presente, segunda, ["saben"], ["know"]).
+verbo(plural, presente, tercera, ["saben"], ["know"]).
 
 %conocer
-verbo(singular, primera, ["conozco"], ["know"]).
-verbo(singular, segunda, ["conoces"], ["know"]).
-verbo(singular, segunda, ["conoce"], ["know"]).
-verbo(singular, tercera, ["conoce"], ["knows"]).
-verbo(plural, primera, ["conocemos"], ["know"]).
-verbo(plural, segunda, ["conocen"], ["know"]).
-verbo(plural, tercera, ["conocen"], ["know"]).
+verbo(singular, presente, primera, ["conozco"], ["know"]).
+verbo(singular, presente, segunda, ["conoces"], ["know"]).
+verbo(singular, presente, segunda, ["conoce"], ["know"]).
+verbo(singular, presente, tercera, ["conoce"], ["knows"]).
+verbo(plural, presente, primera, ["conocemos"], ["know"]).
+verbo(plural, presente, segunda, ["conocen"], ["know"]).
+verbo(plural, presente, tercera, ["conocen"], ["know"]).
 
 %dejar
-verbo(singular, primera, ["dejo"], ["leave"]).
-verbo(singular, segunda, ["dejas"], ["leave"]).
-verbo(singular, segunda, ["deja"], ["leave"]).
-verbo(singular, tercera, ["deja"], ["leaves"]).
-verbo(plural, primera, ["dejamos"],[ "leave"]).
-verbo(plural, segunda, ["dejan"], ["leave"]).
-verbo(plural, tercera, ["dejan"], ["leave"]).
+verbo(singular, presente, primera, ["dejo"], ["leave"]).
+verbo(singular, presente, segunda, ["dejas"], ["leave"]).
+verbo(singular, presente, segunda, ["deja"], ["leave"]).
+verbo(singular, presente, tercera, ["deja"], ["leaves"]).
+verbo(plural, presente, primera, ["dejamos"],[ "leave"]).
+verbo(plural, presente, segunda, ["dejan"], ["leave"]).
+verbo(plural, presente, tercera, ["dejan"], ["leave"]).
 
 %mirar
-verbo(singular, primera, ["miro"], ["look"]).
-verbo(singular, segunda, ["miras"], ["look"]).
-verbo(singular, segunda, ["mira"], ["look"]).
-verbo(singular, tercera, ["mira"], ["looks"]).
-verbo(plural, primera, ["miramos"], ["look"]).
-verbo(plural, segunda, ["miran"], ["look"]).
-verbo(plural, tercera, ["miran"], ["look"]).
+verbo(singular, presente, primera, ["miro"], ["look"]).
+verbo(singular, presente, segunda, ["miras"], ["look"]).
+verbo(singular, presente, segunda, ["mira"], ["look"]).
+verbo(singular, presente, tercera, ["mira"], ["looks"]).
+verbo(plural, presente, primera, ["miramos"], ["look"]).
+verbo(plural, presente, segunda, ["miran"], ["look"]).
+verbo(plural, presente, tercera, ["miran"], ["look"]).
 
 %decir /* hablar con los demas acerca de tell y say*/
-verbo(singular, primera, ["digo"], ["say"]).
-verbo(singular, segunda, ["dices"], ["say"]).
-verbo(singular, segunda, ["dice"], ["say"]).
-verbo(singular, tercera, ["dice"], ["says"]).
-verbo(plural, primera, ["decimos"], ["say"]).
-verbo(plural, segunda, ["dicen"], ["say"]).
-verbo(plural, tercera, ["dicen"], ["say"]).
+verbo(singular, presente, primera, ["digo"], ["say"]).
+verbo(singular, presente, segunda, ["dices"], ["say"]).
+verbo(singular, presente, segunda, ["dice"], ["say"]).
+verbo(singular, presente, tercera, ["dice"], ["says"]).
+verbo(plural, presente, primera, ["decimos"], ["say"]).
+verbo(plural, presente, segunda, ["dicen"], ["say"]).
+verbo(plural, presente, tercera, ["dicen"], ["say"]).
 
 %ver
-verbo(singular, primera, ["veo"], ["see"]).
-verbo(singular, segunda, ["ves"], ["see"]).
-verbo(singular, segunda, ["ve"], ["see"]).
-verbo(singular, tercera, ["ve"], ["sees"]).
-verbo(plural, primera, ["vemos"], ["see"]).
-verbo(plural, segunda, ["ven"], ["see"]).
-verbo(plural, tercera, ["ven"], ["see"]).
+verbo(singular, presente, primera, ["veo"], ["see"]).
+verbo(singular, presente, segunda, ["ves"], ["see"]).
+verbo(singular, presente, segunda, ["ve"], ["see"]).
+verbo(singular, presente, tercera, ["ve"], ["sees"]).
+verbo(plural, presente, primera, ["vemos"], ["see"]).
+verbo(plural, presente, segunda, ["ven"], ["see"]).
+verbo(plural, presente, tercera, ["ven"], ["see"]).
 
 %parecer
-verbo(singular, primera, ["parezco"], ["look like"]).
-verbo(singular, segunda, ["pareces"], ["look like"]).
-verbo(singular, segunda, ["parece"], ["look like"]).
-verbo(singular, tercera, ["parece"], ["looks like"]).
-verbo(plural, primera, ["parecemos"], ["look like"]).
-verbo(plural, segunda, ["parecen"], ["look like"]).
-verbo(plural, tercera, ["parecen"], ["look like"]).
+verbo(singular, presente, primera, ["parezco"], ["look like"]).
+verbo(singular, presente, segunda, ["pareces"], ["look like"]).
+verbo(singular, presente, segunda, ["parece"], ["look like"]).
+verbo(singular, presente, tercera, ["parece"], ["looks like"]).
+verbo(plural, presente, primera, ["parecemos"], ["look like"]).
+verbo(plural, presente, segunda, ["parecen"], ["look like"]).
+verbo(plural, presente, tercera, ["parecen"], ["look like"]).
 
 %tomar
-verbo(singular, primera, ["tomo"], ["take"]).
-verbo(singular, segunda, ["tomas"], ["take"]).
-verbo(singular, segunda, ["toma"], ["take"]).
-verbo(singular, tercera, ["toma"], ["takes"]).
-verbo(plural, primera, ["tomamos"], ["take"]).
-verbo(plural, segunda, ["toman"], ["take"]).
-verbo(plural, tercera, ["toman"], ["take"]).
+verbo(singular, presente, primera, ["tomo"], ["take"]).
+verbo(singular, presente, segunda, ["tomas"], ["take"]).
+verbo(singular, presente, segunda, ["toma"], ["take"]).
+verbo(singular, presente, tercera, ["toma"], ["takes"]).
+verbo(plural, presente, primera, ["tomamos"], ["take"]).
+verbo(plural, presente, segunda, ["toman"], ["take"]).
+verbo(plural, presente, tercera, ["toman"], ["take"]).
 
 %pensar
-verbo(singular, primera, "pienso", "think").
-verbo(singular, segunda, "piensas", "think").
-verbo(singular, segunda, "piensa", "think").
-verbo(singular, tercera, "piensa", "thinks").
-verbo(plural, primera, "pensamos", "thinks").
-verbo(plural, segunda, "piensan", "think").
-verbo(plural, tercera, "piensan", "thinks").
+verbo(singular, presente, primera, "pienso", "think").
+verbo(singular, presente, segunda, "piensas", "think").
+verbo(singular, presente, segunda, "piensa", "think").
+verbo(singular, presente, tercera, "piensa", "thinks").
+verbo(plural, presente, primera, "pensamos", "thinks").
+verbo(plural, presente, segunda, "piensan", "think").
+verbo(plural, presente, tercera, "piensan", "thinks").
 
 %intentar
-verbo(singular, primera, "intento", "try").
-verbo(singular, segunda, "intentas", "try").
-verbo(singular, segunda, "intenta", "try").
-verbo(singular, tercera, "intenta", "tries").
-verbo(plural, primera, "intentamos", "try").
-verbo(plural, segunda, "intentan", "try").
-verbo(plural, tercera, "intentan", "try").
+verbo(singular, presente, primera, "intento", "try").
+verbo(singular, presente, segunda, "intentas", "try").
+verbo(singular, presente, segunda, "intenta", "try").
+verbo(singular, presente, tercera, "intenta", "tries").
+verbo(plural, presente, primera, "intentamos", "try").
+verbo(plural, presente, segunda, "intentan", "try").
+verbo(plural, presente, tercera, "intentan", "try").
 
 %usar
-verbo(singular, primera, "uso", "use").
-verbo(singular, segunda, "usas", "use").
-verbo(singular, segunda, "usa", "use").
-verbo(singular, tercera, "usa", "uses").
-verbo(plural, primera, "usamos", "use").
-verbo(plural, segunda, "usan", "use").
-verbo(plural, tercera, "usan", "use").
+verbo(singular, presente, primera, "uso", "use").
+verbo(singular, presente, segunda, "usas", "use").
+verbo(singular, presente, segunda, "usa", "use").
+verbo(singular, presente, tercera, "usa", "uses").
+verbo(plural, presente, primera, "usamos", "use").
+verbo(plural, presente, segunda, "usan", "use").
+verbo(plural, presente, tercera, "usan", "use").
 
 %querer
-verbo(singular, primera, "quiero", "want").
-verbo(singular, segunda, "quieres", "want").
-verbo(singular, segunda, "quiere", "want").
-verbo(singular, tercera, "quiere", "wants").
-verbo(plural, primera, "queremos", "want").
-verbo(plural, segunda, "quieren", "want").
-verbo(plural, tercera, "quieren", "want").
+verbo(singular, presente, primera, "quiero", "want").
+verbo(singular, presente, segunda, "quieres", "want").
+verbo(singular, presente, segunda, "quiere", "want").
+verbo(singular, presente, tercera, "quiere", "wants").
+verbo(plural, presente, primera, "queremos", "want").
+verbo(plural, presente, segunda, "quieren", "want").
+verbo(plural, presente, tercera, "quieren", "want").
 
 %trabajar
-verbo(singular, primera, "trabajo", "work").
-verbo(singular, segunda, "trabajas", "work").
-verbo(singular, segunda, "trabaja", "work").
-verbo(singular, tercera, "trabaja", "works").
-verbo(plural, primera, "trabajamos", "work").
-verbo(plural, segunda, "trabajan", "work").
-verbo(plural, tercera, "trabajan", "work").
+verbo(singular, presente, primera, "trabajo", "work").
+verbo(singular, presente, segunda, "trabajas", "work").
+verbo(singular, presente, segunda, "trabaja", "work").
+verbo(singular, presente, tercera, "trabaja", "works").
+verbo(plural, presente, primera, "trabajamos", "work").
+verbo(plural, presente, segunda, "trabajan", "work").
+verbo(plural, presente, tercera, "trabajan", "work").
 
 %beber
-verbo(singular, primera, "bebo", "drink").
-verbo(singular, segunda, "bebes", "drink").
-verbo(singular, segunda, "bebe", "drink").
-verbo(singular, tercera, "bebe", "drinks").
-verbo(plural, primera, "bebemos", "drink").
-verbo(plural, segunda, "beben", "drink").
-verbo(plural, tercera, "beben", "drink").
+verbo(singular, presente, primera, "bebo", "drink").
+verbo(singular, presente, segunda, "bebes", "drink").
+verbo(singular, presente, segunda, "bebe", "drink").
+verbo(singular, presente, tercera, "bebe", "drinks").
+verbo(plural, presente, primera, "bebemos", "drink").
+verbo(plural, presente, segunda, "beben", "drink").
+verbo(plural, presente, tercera, "beben", "drink").
 
 %comer
-verbo(singular, primera, "como", "eat").
-verbo(singular, segunda, "comes", "eat").
-verbo(singular, segunda, "come", "eat").
-verbo(singular, tercera, "come", "eats").
-verbo(plural, primera, "comemos", "eat").
-verbo(plural, segunda, "comen", "eat").
-verbo(plural, tercera, "comen", "eat").
+verbo(singular, presente, primera, "como", "eat").
+verbo(singular, presente, segunda, "comes", "eat").
+verbo(singular, presente, segunda, "come", "eat").
+verbo(singular, presente, tercera, "come", "eats").
+verbo(plural, presente, primera, "comemos", "eat").
+verbo(plural, presente, segunda, "comen", "eat").
+verbo(plural, presente, tercera, "comen", "eat").
 
 %correr
-verbo(singular, primera, "corro", "run").
-verbo(singular, segunda, "corres", "run").
-verbo(singular, segunda, "corre", "run").
-verbo(singular, tercera, "corre", "runs").
-verbo(plural, primera, "corremos", "run").
-verbo(plural, segunda, "corren", "run").
-verbo(plural, tercera, "corren", "run").
+verbo(singular, presente, primera, "corro", "run").
+verbo(singular, presente, segunda, "corres", "run").
+verbo(singular, presente, segunda, "corre", "run").
+verbo(singular, presente, tercera, "corre", "runs").
+verbo(plural, presente, primera, "corremos", "run").
+verbo(plural, presente, segunda, "corren", "run").
+verbo(plural, presente, tercera, "corren", "run").
 
 %pensar
-verbo(singular, primera, "pienso", "think").
-verbo(singular, segunda, "piensas", "think").
-verbo(singular, segunda, "piensa", "think").
-verbo(singular, tercera, "piensa", "thinks").
-verbo(plural, primera, "pensamos", "think").
-verbo(plural, segunda, "piensan", "think").
-verbo(plural, tercera, "piensan", "think").
+verbo(singular, presente, primera, "pienso", "think").
+verbo(singular, presente, segunda, "piensas", "think").
+verbo(singular, presente, segunda, "piensa", "think").
+verbo(singular, presente, tercera, "piensa", "thinks").
+verbo(plural, presente, primera, "pensamos", "think").
+verbo(plural, presente, segunda, "piensan", "think").
+verbo(plural, presente, tercera, "piensan", "think").
 
 
 
