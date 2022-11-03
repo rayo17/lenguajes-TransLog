@@ -82,17 +82,23 @@ adjetivo(singular, femenino, ["brillante"], ["shiny"]).
 adjetivo(plural, masculino, ["brillantes"], ["shiny"]).
 adjetivo(plural, femenino, ["brillantes"], ["shiny"]).
 
-%tonto
-adjetivo(singular, masculino, ["tonto"], ["silly"]).
-adjetivo(singular, femenino, ["tonta"], ["silly"]).
-adjetivo(plural, masculino, ["tontos"], ["silly"]).
-adjetivo(plural, femenino, ["tontas"], ["silly"]).
-
 %bueno
 adjetivo(singular, masculino, ["bueno"], ["nice"]).
 adjetivo(singular, femenino, ["buena"], ["nice"]).
 adjetivo(plural, masculino, ["buenos"], ["nice"]).
 adjetivo(plural, femenino, ["buenas"], ["nice"]).
+
+%calmado
+adjetivo(singular, masculino, ["calmado"], ["calm"]).
+adjetivo(singular, femenino, ["calamada"], ["calm"]).
+adjetivo(plural, masculino, ["calmados"], ["calm"]).
+adjetivo(plural, femenino, ["calmadas"], ["calm"]).
+
+%caliente
+adjetivo(singular, masculino, ["caliente"], ["hot"]).
+adjetivo(singular, femenino, ["caliente"], ["hot"]).
+adjetivo(plural, masculino, ["calientes"], ["hot"]).
+adjetivo(plural, femenino, ["calientes"], ["hot"]).
 
 %cariñoso
 adjetivo(singular, masculino, ["cariñoso"], ["loving"]).
@@ -154,17 +160,47 @@ adjetivo(singular, femenino, ["difícil"], ["difficult"]).
 adjetivo(plural, masculino, ["difíciles"], ["difficult"]).
 adjetivo(plural, femenino, ["difíciles"], ["difficult"]).
 
+%diferente
+adjetivo(singular, masculino, ["diferente"], ["different"]).
+adjetivo(singular, femenino, ["diferente"], ["different"]).
+adjetivo(plural, masculino, ["diferentes"], ["different"]).
+adjetivo(plural, femenino, ["diferente"], ["different"]).
+
+%divertido
+adjetivo(singular, masculino, ["divertido"], ["funny"]).
+adjetivo(singular, femenino, ["divertida"], ["funny"]).
+adjetivo(plural, masculino, ["divertidos"], ["funny"]).
+adjetivo(plural, femenino, ["divertidas"], ["funny"]).
+
 %duro
 adjetivo(singular, masculino, ["duro"], ["hard"]).
 adjetivo(singular, femenino, ["dura"], ["hard"]).
 adjetivo(plural, masculino, ["duros"], ["hard"]).
 adjetivo(plural, femenino, ["duras"], ["hard"]).
 
+%dulce
+adjetivo(singular, masculino, ["dulce"], ["sweet"]).
+adjetivo(singular, femenino, ["dulce"], ["sweet"]).
+adjetivo(plural, masculino, ["dulces"], ["sweet"]).
+adjetivo(plural, femenino, ["dulce"], ["sweet"]).
+
 %enorme
 adjetivo(singular, masculino, ["enorme"], ["huge"]).
 adjetivo(singular, femenino, ["enorme"], ["huge"]).
 adjetivo(plural, masculino, ["enormes"], ["huge"]).
 adjetivo(plural, femenino, ["enormes"], ["huge"]).
+
+%equivocado
+adjetivo(singular, masculino, ["equivocado"], ["wrong"]).
+adjetivo(singular, femenino, ["equivocada"], ["wrong"]).
+adjetivo(plural, masculino, ["equivocados"], ["wrong"]).
+adjetivo(plural, femenino, ["equivocadas"], ["wrong"]).
+
+%experto
+adjetivo(singular, masculino, ["experto"], ["expert"]).
+adjetivo(singular, femenino, ["experta"], ["expert"]).
+adjetivo(plural, masculino, ["expertos"], ["experts"]).
+adjetivo(plural, femenino, ["expertas"], ["experts"]).
 
 %fácil
 adjetivo(singular, masculino, ["fácil"], ["easy"]).
@@ -184,11 +220,29 @@ adjetivo(singular, femenino, ["flexible"], ["flexible"]).
 adjetivo(plural, masculino, ["flexibles"], ["flexible"]).
 adjetivo(plural, femenino, ["flexibles"], ["flexible"]).
 
+%feo
+adjetivo(singular, masculino, ["feo"], ["ugly"]).
+adjetivo(singular, femenino, ["fea"], ["ugly"]).
+adjetivo(plural, masculino, ["feos"], ["ugly"]).
+adjetivo(plural, femenino, ["feas"], ["ugly"]).
+
+%frio
+adjetivo(singular, masculino, ["frio"], ["cold"]).
+adjetivo(singular, femenino, ["fria"], ["cold"]).
+adjetivo(plural, masculino, ["frios"], ["cold"]).
+adjetivo(plural, femenino, ["frias"], ["cold"]).
+
 %generoso
 adjetivo(singular, masculino, ["generoso"], ["generous"]).
 adjetivo(singular, femenino, ["generosa"], ["generous"]).
 adjetivo(plural, masculino, ["generosos"], ["generous"]).
 adjetivo(plural, femenino, ["generosas"], ["generous"]).
+
+%gordo
+adjetivo(singular, masculino, ["gordo"], ["fat"]).
+adjetivo(singular, femenino, ["gorda"], ["fat"]).
+adjetivo(plural, masculino, ["gordos"], ["fat"]).
+adjetivo(plural, femenino, ["gorda"], ["fat"]).
 
 %grande
 adjetivo(singular, masculino, ["grande"], ["big"]).
@@ -202,11 +256,29 @@ adjetivo(singular, femenino, ["gris"], ["gray"]).
 adjetivo(plural, masculino, ["grises"], ["gray"]).
 adjetivo(plural, femenino, ["grises"], ["gray"]).
 
+%hermoso
+adjetivo(singular, masculino, ["hermoso"], ["bautiful"]).
+adjetivo(singular, femenino, ["hermosa"], ["beautiful"]).
+adjetivo(singular, masculino, ["hermosos"], ["beautiful"]).
+adjetivo(singular, femenino, ["hermosas"], ["beautiful"]).
+
 %honesto
 adjetivo(singular, masculino, ["honesto"], ["honest"]).
 adjetivo(singular, femenino, ["honesta"], ["honest"]).
 adjetivo(plural, masculino, ["honestos"], ["honest"]).
 adjetivo(plural, femenino, ["honestas"], ["honest"]).
+
+%horrible
+adjetivo(singular, masculino, ["horrible"], ["horrible"]).
+adjetivo(singular, femenino, ["horrible"], ["horrible"]).
+adjetivo(plural, masculino, ["horribles"], ["horrible"]).
+adjetivo(plural, femenino, ["horribles"], ["horible"]).
+
+%igual
+adjetivo(singular, masculino, ["igual"], ["equal"]).
+adjetivo(singular, femenino, ["igual"], ["equal"]).
+adjetivo(plural, masculino, ["iguales"], ["equal"]).
+adjetivo(plural, femenino, ["iguales"], ["equal"]).
 
 %incomodo
 adjetivo(singular, masculino, ["incómodo"], ["uncomfortable"]).
@@ -240,27 +312,45 @@ adjetivo(plural, femenino, ["infelices"], ["unhappy"]).
 
 %inoperante
 adjetivo(singular, masculino, ["inoperante"], ["inoperative"]).
-adjetivo(singular, femenino, ["inoperante"], ["inoperative "]).
-adjetivo(plural, masculino, ["inoperantes"], ["inoperative "]).
-adjetivo(plural, femenino, ["inoperantes"], ["inoperative "]).
+adjetivo(singular, femenino, ["inoperante"], ["inoperative"]).
+adjetivo(plural, masculino, ["inoperantes"], ["inoperative"]).
+adjetivo(plural, femenino, ["inoperantes"], ["inoperative"]).
 
 %insatisfecho
 adjetivo(singular, masculino, ["insatisfecho"], ["dissatisfied"]).
-adjetivo(singular, femenino, ["insatisfecha"], ["dissatisfied "]).
-adjetivo(plural, masculino, ["insatisfechos"], ["dissatisfied "]).
-adjetivo(plural, femenino, ["insatisfechas"], ["dissatisfied "]).
+adjetivo(singular, femenino, ["insatisfecha"], ["dissatisfied"]).
+adjetivo(plural, masculino, ["insatisfechos"], ["dissatisfied"]).
+adjetivo(plural, femenino, ["insatisfechas"], ["dissatisfied"]).
 
 %inteligente
 adjetivo(singular, masculino, ["inteligente"], ["smart"]).
-adjetivo(singular, femenino, ["inteligente"], ["smart "]).
-adjetivo(plural, masculino, ["inteligentes"], ["smart "]).
-adjetivo(plural, femenino, ["inteligentes"], ["smart "]).
+adjetivo(singular, femenino, ["inteligente"], ["smart"]).
+adjetivo(plural, masculino, ["inteligentes"], ["smart"]).
+adjetivo(plural, femenino, ["inteligentes"], ["smart"]).
+
+%largo
+adjetivo(singular, masculino, ["largo"], ["long"]).
+adjetivo(singular, femenino, ["larga"], ["long"]).
+adjetivo(plural, masculino, ["largos"], ["long"]).
+adjetivo(plural, femenino, ["largas"], ["long"]).
+
+%lento
+adjetivo(singular, masculino, ["lento"], ["slow"]).
+adjetivo(singular, femenino, ["lenta"], ["slow"]).
+adjetivo(plural, masculino, ["lentos"], ["slow"]).
+adjetivo(plural, femenino, ["lentas"], ["slow"]).
 
 %limpio
 adjetivo(singular, masculino, ["limpio"], ["clean"]).
 adjetivo(singular, femenino, ["limpia"], ["clean"]).
 adjetivo(plural, masculino, ["limpios"], ["clean"]).
 adjetivo(plural, femenino, ["limpias"], ["clean"]).
+
+%lógico
+adjetivo(singular, masculino, ["lógico"], ["logical"]).
+adjetivo(singular, femenino, ["lógica"], ["logic"]).
+adjetivo(plural, masculino, ["lógicos"], ["logical"]).
+adjetivo(plural, femenino, ["lógicas"], ["logical"]).
 
 %magnífico
 adjetivo(singular, masculino, ["magnífico"], ["magnificent"]).
@@ -286,11 +376,29 @@ adjetivo(singular, femenino, ["mayor"], ["higher"]).
 adjetivo(plural, masculino, ["mayores"], ["higher"]).
 adjetivo(plural, femenino, ["mayores"], ["higher"]).
 
+%mejor
+adjetivo(singular, masculino, ["mejor"], ["better"]).
+adjetivo(singular, femenino, ["mejor"], ["better"]) .
+adjetivo(plural, masculino, ["mejores"], ["better"]).
+adjetivo(plural, femenino, ["mejores"], ["better"]).
+
+%muerto
+adjetivo(singular, masculino, ["muerto"], ["dead"]).
+adjetivo(singular, femenino, ["muerta"], ["dead"]).
+adjetivo(plural, masculino, ["muertos"], ["dead"]).
+adjetivo(plural, femenino, ["muertas"], ["dead"]).
+
 %negro
 adjetivo(singular, masculino, ["negro"], ["black"]).
 adjetivo(singular, femenino, ["negra"], ["black"]).
 adjetivo(plural, masculino, ["negros"], ["black"]).
 adjetivo(plural, femenino, ["negras"], ["black"]).
+
+%mismo
+adjetivo(singular, masculino, ["mismo"], ["same"]).
+adjetivo(singular, femenino, ["mismo"], ["same"]).
+adjetivo(plural, masculino, ["mismos"], ["same"]).
+adjetivo(plural, femenino, ["mismos"], ["same"]).
 
 %paciente
 adjetivo(singular, masculino, ["paciente"], ["patient"]).
@@ -298,17 +406,35 @@ adjetivo(singular, femenino, ["paciente"], ["patient"]).
 adjetivo(plural, masculino, ["pacientes"], ["patient"]).
 adjetivo(plural, femenino, ["pacientes"], ["patient"]).
 
+%perfecto
+adjetivo(singular, masculino, ["perfecto"], ["perfet"]).
+adjetivo(singular, femenino, ["perfecta"], ["perfect"]).
+adjetivo(plural, masculino, ["perfectos"], ["perfect"]).
+adjetivo(plural, femenino, ["perfectas"], ["perfect"]).
+
 %pequeño
 adjetivo(singular, masculino, ["pequeño"], ["small"]).
 adjetivo(singular, femenino, ["pequeña"], ["small"]).
 adjetivo(plural, masculino, ["pequeños"], ["small"]).
 adjetivo(plural, femenino, ["pequeñas"], ["small"]).
 
+%perezoso
+adjetivo(singular, masculino, ["perezoso"], ["lazy"]).
+adjetivo(singular, femenino, ["perezosa"], ["lazy"]).
+adjetivo(plural, masculino, ["perezosos"], ["lazy"]).
+adjetivo(plural, femenino, ["perezosas"], ["lazy"]).
+
 %popular
 adjetivo(singular, masculino, ["popular"], ["popular"]).
 adjetivo(singular, femenino, ["popular"], ["popular"]).
 adjetivo(plural, masculino, ["populares"], ["popular"]).
 adjetivo(plural, femenino, ["populares"], ["popular"]).
+
+%posible
+adjetivo(singular, masculino, ["posible"], ["possible"]).
+adjetivo(singular, femenino, ["posible"], ["possible"]).
+adjetivo(plural, masculino, ["posibles"], ["possible"]).
+adjetivo(plural, femenino, ["posible"], ["possible"]).
 
 %primer
 adjetivo(singular, masculino, ["primero"], ["first"]).
@@ -370,11 +496,42 @@ adjetivo(singular, femenino, ["sucia"], ["dirty"]).
 adjetivo(plural, masculino, ["sucios"], ["dirty"]).
 adjetivo(plural, femenino, ["sucias"], ["dirty"]).
 
+%tierno
+adjetivo(singular, masculino, ["tierno"], ["cute"]).
+adjetivo(singular, femenino, ["tierna"], ["cute"]).
+adjetivo(plural, masculino, ["tiernos"], ["cute"]).
+adjetivo(plural, femenino, ["tiernas"], ["cute"]).
+
+%terrible
+adjetivo(singular, masculino, ["terrbile"], ["terrible"]).
+adjetivo(singular, femenino, ["terrible"], ["terrible"]).
+adjetivo(plural, masculino, ["terribles"], ["terrible"]).
+adjetivo(plural, femenino, ["terribles"], ["terrible"]).
+
+%tonto
+adjetivo(singular, masculino, ["tonto"], ["silly"]).
+adjetivo(singular, femenino, ["tonta"], ["silly"]).
+adjetivo(plural, masculino, ["tontos"], ["silly"]).
+adjetivo(plural, femenino, ["tontas"], ["silly"]).
+
+
+%valiente
+adjetivo(singular, masculino, ["valiente"], ["brave"]).
+adjetivo(singular, femenino, ["valiente"], ["brave"]).
+adjetivo(plural, masculino, ["valientes"], ["brave"]).
+adjetivo(plural, femenino, ["valientes"], ["brave"]).
+
 %verde
 adjetivo(singular, masculino, ["verde"], ["green"]).
 adjetivo(singular, femenino, ["verde"], ["green"]).
 adjetivo(plural, masculino, ["verdes"], ["green"]).
 adjetivo(plural, femenino, ["verdes"], ["green"]).
+
+%viejo
+adjetivo(singular, masculino, ["viejo"], ["old"]).
+adjetivo(singular, femenino, ["vieja"], ["old"]).
+adjetivo(plural, masculino, ["viejos"], ["old"]).
+adjetivo(plural, femenino, ["viejas"], ["old"]).
 
 %voluptuoso
 adjetivo(singular, masculino, ["voluptuoso"], ["voluptuous"]).
@@ -382,4 +539,3 @@ adjetivo(singular, femenino, ["voluptuosa"], ["voluptuous"]).
 adjetivo(plural, masculino, ["voluptuosos"], ["voluptuous"]).
 adjetivo(plural, femenino, ["voluptuosas"], ["voluptuous"]).
 
-%

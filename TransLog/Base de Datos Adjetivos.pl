@@ -155,10 +155,10 @@ adjetivo(plural, masculino, ["deteriorados"], ["deteriorated"]).
 adjetivo(plural, femenino, ["deterioradas"], ["deteriorated"]).
 
 %difícil
-adjetivo(singular, masculino, ["difícil"], ["difficult"]).
-adjetivo(singular, femenino, ["difícil"], ["difficult"]).
-adjetivo(plural, masculino, ["difíciles"], ["difficult"]).
-adjetivo(plural, femenino, ["difíciles"], ["difficult"]).
+adjetivo(singular, masculino, ["difiicil"], ["difficult"]).
+adjetivo(singular, femenino, ["difiicil"], ["difficult"]).
+adjetivo(plural, masculino, ["difiiciles"], ["difficult"]).
+adjetivo(plural, femenino, ["difiiciles"], ["difficult"]).
 
 %diferente
 adjetivo(singular, masculino, ["diferente"], ["different"]).
@@ -203,10 +203,10 @@ adjetivo(plural, masculino, ["expertos"], ["experts"]).
 adjetivo(plural, femenino, ["expertas"], ["experts"]).
 
 %fácil
-adjetivo(singular, masculino, ["fácil"], ["easy"]).
-adjetivo(singular, femenino, ["fácil"], ["easy"]).
-adjetivo(plural, masculino, ["fáciles"], ["easy"]).
-adjetivo(plural, femenino, ["fáciles"], ["easy"]).
+adjetivo(singular, masculino, ["faacil"], ["easy"]).
+adjetivo(singular, femenino, ["faacil"], ["easy"]).
+adjetivo(plural, masculino, ["faaciles"], ["easy"]).
+adjetivo(plural, femenino, ["faaciles"], ["easy"]).
 
 %famoso
 adjetivo(singular, masculino, ["famoso"], ["famous"]).
@@ -281,16 +281,16 @@ adjetivo(plural, masculino, ["iguales"], ["equal"]).
 adjetivo(plural, femenino, ["iguales"], ["equal"]).
 
 %incomodo
-adjetivo(singular, masculino, ["incómodo"], ["uncomfortable"]).
-adjetivo(singular, femenino, ["incómoda"], ["uncomfortable"]).
-adjetivo(plural, masculino, ["incómodos"], ["uncomfortable"]).
-adjetivo(plural, femenino, ["incómodas"], ["uncomfortable"]).
+adjetivo(singular, masculino, ["incoomodo"], ["uncomfortable"]).
+adjetivo(singular, femenino, ["incoomoda"], ["uncomfortable"]).
+adjetivo(plural, masculino, ["incoomodos"], ["uncomfortable"]).
+adjetivo(plural, femenino, ["incoomodas"], ["uncomfortable"]).
 
 %increíble
-adjetivo(singular, masculino, ["increíble"], ["amazing"]).
-adjetivo(singular, femenino, ["increíble"], ["amazing"]).
-adjetivo(plural, masculino, ["increíbles"], ["amazing"]).
-adjetivo(plural, femenino, ["increíbles"], ["amazing"]).
+adjetivo(singular, masculino, ["increiible"], ["amazing"]).
+adjetivo(singular, femenino, ["increiible"], ["amazing"]).
+adjetivo(plural, masculino, ["increiibles"], ["amazing"]).
+adjetivo(plural, femenino, ["increiibles"], ["amazing"]).
 
 %inepto
 adjetivo(singular, masculino, ["inepto"], ["inept"]).
@@ -347,16 +347,16 @@ adjetivo(plural, masculino, ["limpios"], ["clean"]).
 adjetivo(plural, femenino, ["limpias"], ["clean"]).
 
 %lógico
-adjetivo(singular, masculino, ["lógico"], ["logical"]).
-adjetivo(singular, femenino, ["lógica"], ["logic"]).
-adjetivo(plural, masculino, ["lógicos"], ["logical"]).
-adjetivo(plural, femenino, ["lógicas"], ["logical"]).
+adjetivo(singular, masculino, ["loogico"], ["logical"]).
+adjetivo(singular, femenino, ["loogica"], ["logic"]).
+adjetivo(plural, masculino, ["loogicos"], ["logical"]).
+adjetivo(plural, femenino, ["loogicas"], ["logical"]).
 
 %magnífico
-adjetivo(singular, masculino, ["magnífico"], ["magnificent"]).
-adjetivo(singular, femenino, ["magnífica"], ["magnificent "]).
-adjetivo(plural, masculino, ["magníficos"], ["magnificent "]).
-adjetivo(plural, femenino, ["magníficas"], ["magnificent "]).
+adjetivo(singular, masculino, ["magniifico"], ["magnificent"]).
+adjetivo(singular, femenino, ["magniifica"], ["magnificent "]).
+adjetivo(plural, masculino, ["magniificos"], ["magnificent "]).
+adjetivo(plural, femenino, ["magniificas"], ["magnificent "]).
 
 %malo
 adjetivo(singular, masculino, ["malo"], ["bad"]).
@@ -449,10 +449,10 @@ adjetivo(plural, masculino, ["querido"], ["darling"]).
 adjetivo(plural, femenino, ["querido"], ["darling"]).
 
 %rápido
-adjetivo(singular, masculino, ["rápido"], ["fast"]).
-adjetivo(singular, femenino, ["rápida"], ["fast"]).
-adjetivo(plural, masculino, ["rápidos"], ["fast"]).
-adjetivo(plural, femenino, ["rápidas"], ["fast"]).
+adjetivo(singular, masculino, ["raapido"], ["fast"]).
+adjetivo(singular, femenino, ["raapida"], ["fast"]).
+adjetivo(plural, masculino, ["raapidos"], ["fast"]).
+adjetivo(plural, femenino, ["raapidas"], ["fast"]).
 
 %redondo
 adjetivo(singular, masculino, ["redondo"], ["round"]).
@@ -461,10 +461,10 @@ adjetivo(plural, masculino, ["redondos"], ["round"]).
 adjetivo(plural, femenino, ["redondas"], ["round"]).
 
 %rígido
-adjetivo(singular, masculino, ["rígido"], ["rigid"]).
-adjetivo(singular, femenino, ["rígida"], ["rigid"]).
-adjetivo(plural, masculino, ["rígidos"], ["rigid"]).
-adjetivo(plural, femenino, ["rígidas"], ["rigid"]).
+adjetivo(singular, masculino, ["riigido"], ["rigid"]).
+adjetivo(singular, femenino, ["riigida"], ["rigid"]).
+adjetivo(plural, masculino, ["riigidos"], ["rigid"]).
+adjetivo(plural, femenino, ["riigidas"], ["rigid"]).
 
 %rojo
 adjetivo(singular, masculino, ["rojo"], ["red"]).
@@ -538,4 +538,3 @@ adjetivo(singular, masculino, ["voluptuoso"], ["voluptuous"]).
 adjetivo(singular, femenino, ["voluptuosa"], ["voluptuous"]).
 adjetivo(plural, masculino, ["voluptuosos"], ["voluptuous"]).
 adjetivo(plural, femenino, ["voluptuosas"], ["voluptuous"]).
-
