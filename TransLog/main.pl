@@ -97,8 +97,8 @@ oracion_simple(ListWordsSpanish, ListWordsEnglish) :- interrogativo(Spanish, Eng
 
 
 
-verbal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- verbo(Numero, Persona, PalabraSpanish, PalabraEnglish).
-verbal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- verbo(Numero, Persona, Spanish, English),
+verbal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- verbo(Numero, Tiempo, Persona, PalabraSpanish, PalabraEnglish).
+verbal_sintac(PalabraSpanish, PalabraEnglish, Persona) :- verbo(Numero, Tiempo, Persona, Spanish, English),
                                                            nominal_sintac(Spanish2, English2, Persona), 
                                                            unir(Spanish, Spanish2, PalabraSpanish), 
                                                            unir(English, English2, PalabraEnglish).
